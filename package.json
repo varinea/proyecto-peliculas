@@ -1,0 +1,15 @@
+{
+  "name": "proyecto-peliculas",
+  "version": "1.0.0",
+  "description": "proyecto peliculas ",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Corina Varas, Monica Bartha, Andrea Vasquez y Varinea Lopez",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^11.3.0"
+  }
+}
