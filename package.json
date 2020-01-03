@@ -2,7 +2,7 @@
   "name": "proyecto-peliculas",
   "version": "1.0.0",
   "description": "proyecto peliculas ",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "start": "serve ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
