@@ -1,0 +1,19 @@
+*{list-style: none}
+body{background-color: #63717f}
+
+.contenedor{
+	display: flex;
+	justify-content: flex-end;
+}
+.search-bar{
+	width: 360px;
+	height: 40px;
+	margin: 20px 20px; 
+	padding-left:10px; 
+    background: white;
+    border: none;
+	font-size: 12pt;
+	color: #63717f;
+    border-radius: 5px;
+}
+
