@@ -1,14 +1,30 @@
 'use strict'
 
+let html = document.getElementById('root');
 
-let searchBar=document.getElementById('search-bar').addEventListener('keydown', (e) => {
+document.getElementById('search-bar').addEventListener('keydown', (e) => {
 	if (e.keyCode === 13) {
 		fetch(`http://www.omdbapi.com/?s=${e.target.value}&apikey=fbdf5d5c`)
-		  .then(response => response.json())
-		  .then(json => console.log(json))
-	  
+			.then(response => response.json())
+			.then(json => {
+				json.Search.map((i) => {
+					html.innerHTML +=  `<div class="card-group col-2">
+					<div class="card">
+					  <img class="card-img-top" src="${i.Poster}" alt="Card image cap">
+					  <div class="card-body">
+						<h5 class="card-title">${i.Title}</h5>
+						<p class="card-text">${i.Type}</p>
+						<p class="card-text"><small class="text-muted">${i.Year}</small></p>
+					  </div>
+					</div>`;
+				})
+			})
+
 	}
-  });
+});
+
+
+// `<i>${i.Title}</i><br>`;
 
 
 // //Ciencia Ficción Star Wars, E.T. El extraterrestre, Metrópolis, Gravity, Jurassic Park

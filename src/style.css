@@ -29,7 +29,7 @@ body{background: #CBCBCB}
 	background-image: url('https://img.freepik.com/foto-gratis/la-pintura-cae-sobre-fondo-negro_23-2147798308.jpg?size=664&ext=jpg');
 	background-size: 100%; 
 }
-.btn{
+.btns{
     flex-direction: row;
     display: flex;
 	justify-content: center; 
