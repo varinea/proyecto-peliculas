@@ -8,11 +8,11 @@ document.getElementById('search-bar').addEventListener('keydown', (e) => {
 			.then(response => response.json())
 			.then(json => {
 				json.Search.map((i) => {
-					html.innerHTML +=  `<div class="card-group col-2">
+					html.innerHTML +=  `<div class="card-group col-2 custom-card">
 					<div class="card">
-					  <img class="card-img-top" src="${i.Poster}" alt="Card image cap">
+					  <img class="card-img-top custom-img" src="${i.Poster}" alt="Card image cap">
 					  <div class="card-body">
-						<h5 class="card-title">${i.Title}</h5>
+						<h5 class="custom-title">${i.Title}</h5>
 						<p class="card-text">${i.Type}</p>
 						<p class="card-text"><small class="text-muted">${i.Year}</small></p>
 					  </div>
@@ -22,6 +22,8 @@ document.getElementById('search-bar').addEventListener('keydown', (e) => {
 
 	}
 });
+
+
 
 
 // `<i>${i.Title}</i><br>`;

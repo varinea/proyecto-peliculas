@@ -10,6 +10,9 @@ body{background: #CBCBCB}
 .contenedor{
 	justify-content: flex-end;
 }
+.logo{
+	margin-left: 35px;
+}
 .search-bar{
 	width: 360px;
 	height: 40px;
@@ -54,4 +57,17 @@ body{background: #CBCBCB}
 .botones:hover{
     color:rgb(24, 12, 12);
     background: #0c4d5d;
+}
+
+.custom-card{
+	height: 400px;
+	margin-bottom: 50px;
+}
+
+.custom-img{
+	height: 250px;
+	width: 200px;
+}
+.custom-title{
+	height: 75px;
 }
