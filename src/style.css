@@ -87,9 +87,14 @@ body{background: #252327}
 }
 /* CATEGORYS */
 .category {
-    padding: 10px 30px;
+   
+    
 }
 .row {
+ 
+    justify-content: center;
+    padding: 55px;
+    text-align: center;
     background-color: black;
 }
 /* FOOTER */
@@ -100,6 +105,7 @@ footer {
     justify-content: center;
     padding: 20px;
     color: #ffffff;
+    text-align: center;
 }
 .social-icon {
     display: inline-flex;
