@@ -7,6 +7,7 @@ document.getElementById('search-bar').addEventListener('keydown', (e) => {
 		fetch(`http://www.omdbapi.com/?s=${e.target.value}&apikey=fbdf5d5c`)
 			.then(response => response.json())
 			.then(json => {
+				console.log(json);
 				json.Search.map((i) => {
 					html.innerHTML +=  `<div class="card-group col-2 custom-card">
 					<div class="card">
