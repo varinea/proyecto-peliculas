@@ -9,6 +9,7 @@ document.getElementById('search-bar').addEventListener('keydown', (e) => {
 			.then(json => {
 				console.log(json);
 				json.Search.map((i) => {
+					html.innerHTML = '';
 					html.innerHTML +=  `<div class="card-group col-2 custom-card">
 					<div class="card">
 					  <img class="card-img-top custom-img" src="${i.Poster}" alt="Card image cap">
