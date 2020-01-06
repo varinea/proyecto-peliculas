@@ -30,7 +30,7 @@ document.getElementById('search-bar').addEventListener('keydown', (e) => {
 
 //Ciencia Ficción Star Wars, E.T. El extraterrestre, Metrópolis, Gravity, Jurassic Park
 document.getElementById('action').addEventListener('click', () => {
-	const moviesAction = ['tt0437086','tt0437086']; 
+	const moviesAction = ['tt0437086','tt2294629']; 
 	let arrayData= [];
 	moviesAction.forEach(element => {
 		fetch(`http://www.omdbapi.com/?i=${element}&apikey=fbdf5d5c`)
