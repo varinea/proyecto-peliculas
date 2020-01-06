@@ -75,8 +75,12 @@ body{background: #252327}
 .custom-title{
 	height: 75px;
 }
+.custom-peli{
+	width:50%;
+	height:50%; 
+}
 /* SLIDER */
-.sliderMovie {
+.sliderMovie{
     width: 40%;
     display: block;
     margin: auto;

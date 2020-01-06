@@ -3,39 +3,27 @@
 let html = document.getElementById('root');
 
 document.getElementById('search-bar').addEventListener('keydown', (e) => {
-	if (e.keyCode === 13) { // keyCode, el usuario cuando aprete enter llamara a la api
+	if (e.keyCode === 13) {
 		fetch(`http://www.omdbapi.com/?s=${e.target.value}&apikey=fbdf5d5c`)
 			.then(response => response.json())
 			.then(json => {
+				console.log(json);
 				json.Search.map((i) => {
-					html.innerHTML +=  `<div class="card-group col-2">
+					html.innerHTML = '';
+					html.innerHTML +=  `<div class="card-group col-2 custom-card">
 					<div class="card">
-					  <img class="card-img-top" src="${i.Poster}" alt="Card image cap">
+					  <img class="card-img-top custom-img" src="${i.Poster}" alt="Card image cap">
 					  <div class="card-body">
-						<h5 class="card-title">${i.Title}</h5>
+						<h5 class="custom-title">${i.Title}</h5>
 						<p class="card-text">${i.Type}</p>
 						<p class="card-text"><small class="text-muted">${i.Year}</small></p>
 					  </div>
 					</div>`;
 				})
 			})
+
 	}
 });
-
-
-// BOTON ACCIÓN   VARINEA
-document.getElementById('fighter').addEventListener("click", () => {
-	
-		fetch(`https://api.themoviedb.org/3/discover/movie?api_key=71949b65aff64acdb6a0fce55fb7fb1d&sort_by=popularity.desc&page=1&primary_release_date.gte=2019-01-01%27`)
-			.then(response => response.json())
-			.then(json => {
-				console.log(json.)
-				})
-			}
-
-	
-);
-
 
 
 
