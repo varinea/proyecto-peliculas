@@ -27,7 +27,7 @@ document.getElementById('search-bar').addEventListener('keydown', (e) => {
 	}
 });
 
-
+master
 //BOTON de ACCIÓN - VARINEA--
 
 document.getElementById('action').addEventListener ('click', () => {
@@ -166,4 +166,17 @@ document.getElementById('animated').addEventListener ('click', () => {
 	})
 })  
      document.getElementById('todo').style.display='none';
+});
+
+//Ciencia Ficción Star Wars, E.T. El extraterrestre, Metrópolis, Gravity, Jurassic Park
+document.getElementById('action').addEventListener('click', () => {
+	const moviesAction = ['tt0437086','tt0437086']; 
+	let arrayData= [];
+	moviesAction.forEach(element => {
+		fetch(`http://www.omdbapi.com/?i=${element}&apikey=fbdf5d5c`)
+		.then(response => response.json())
+		.then(json => arrayData.push(json))
+	});
+	console.log(arrayData);
+
 });
