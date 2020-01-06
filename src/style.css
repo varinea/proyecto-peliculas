@@ -112,3 +112,7 @@ footer p {
     padding-top: 20px;
     align-self: flex-end;
 }
+.hidden{
+    visibility: hidden;
+    }
+    
