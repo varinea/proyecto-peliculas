@@ -3,7 +3,7 @@
 let html = document.getElementById('root');
 
 document.getElementById('search-bar').addEventListener('keydown', (e) => {
-	if (e.keyCode === 13) {
+	if (e.keyCode === 13) { // keyCode, el usuario cuando aprete enter llamara a la api
 		fetch(`http://www.omdbapi.com/?s=${e.target.value}&apikey=fbdf5d5c`)
 			.then(response => response.json())
 			.then(json => {
@@ -19,9 +19,25 @@ document.getElementById('search-bar').addEventListener('keydown', (e) => {
 					</div>`;
 				})
 			})
-
 	}
 });
+
+
+// BOTON ACCIÓN   VARINEA
+document.getElementById('fighter').addEventListener("click", () => {
+	
+		fetch(`https://api.themoviedb.org/3/discover/movie?api_key=71949b65aff64acdb6a0fce55fb7fb1d&sort_by=popularity.desc&page=1&primary_release_date.gte=2019-01-01%27`)
+			.then(response => response.json())
+			.then(json => {
+				console.log(json.)
+				})
+			}
+
+	
+);
+
+
+
 
 
 // `<i>${i.Title}</i><br>`;

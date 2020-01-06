@@ -5,10 +5,17 @@
 	text-decoration: none;
     box-sizing: border-box;
 }
-body{background: #CBCBCB}
+body{background: #252327}
 
+.row h2 {
+    color: #ffffff;
+}
 .contenedor{
 	justify-content: flex-end;
+}
+/* HEADER --- MENUS */
+.logo{
+	margin-left: 35px;
 }
 .search-bar{
 	width: 360px;
@@ -23,10 +30,10 @@ body{background: #CBCBCB}
 	float: right;
 }
 
-.imgHeader{
+.imgHeader {
 	width: 100%;
 	height: 110px;
-	background-image: url('https://img.freepik.com/foto-gratis/la-pintura-cae-sobre-fondo-negro_23-2147798308.jpg?size=664&ext=jpg');
+	background-image: url('https://thumbnailer.mixcloud.com/unsafe/1200x628/profile/3/4/b/9/616f-ea8f-4ad9-b20d-91c693c85f2f');
 	background-size: 100%; 
 }
 .btns{
@@ -54,4 +61,50 @@ body{background: #CBCBCB}
 .botones:hover{
     color:rgb(24, 12, 12);
     background: #0c4d5d;
+}
+
+.custom-card{
+	height: 400px;
+	margin-bottom: 50px;
+}
+
+.custom-img{
+	height: 250px;
+	width: 200px;
+}
+.custom-title{
+	height: 75px;
+}
+/* SLIDER */
+.sliderMovie {
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+/* CATEGORYS */
+.category {
+    padding: 10px 30px;
+}
+.row {
+    background-color: black;
+}
+/* FOOTER */
+footer {
+    background-image: url('https://thumbnailer.mixcloud.com/unsafe/1200x628/profile/3/4/b/9/616f-ea8f-4ad9-b20d-91c693c85f2f');
+	background-size: 100%; 
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #ffffff;
+}
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    padding-right: 5px;
+    margin: auto; 
+}
+footer p {
+    text-align: center;
+    padding-top: 20px;
+    align-self: flex-end;
 }
