@@ -26,8 +26,6 @@ document.getElementById('search-bar').addEventListener('keydown', (e) => {
 });
 
 
-
-
 // `<i>${i.Title}</i><br>`;
 
 
