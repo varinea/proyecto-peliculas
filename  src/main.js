@@ -176,6 +176,103 @@ document.getElementById('animated').addEventListener ('click', () => {
      document.getElementById('todo').style.display='none';
 });
 
+//BOTON de MISTERIO - VARINEA--
+
+document.getElementById('mystery').addEventListener('click', () => {
+	const moviesMystery = ['tt5886046', 'tt1860242', 'tt8946378', 'tt7798634', 'tt7984734', 'tt3387520', 'tt5884052', 'tt8155288', 'tt4332232', 'tt2935510'];
+	html.innerHTML = ""
+	moviesMystery.forEach(element => {
+		fetch(`http://www.omdbapi.com/?i=${element}&apikey=fbdf5d5c`)
+			.then(response => response.json())
+			.then(data => {
+				html.innerHTML += `<div class="card-group col-2 custom-card">
+		<div class="card">
+		<img class="card-img-top custom-img" src="${data.Poster}" alt="Card image cap">
+		<div class="card-body">
+		<h5 class="custom-title">${data.Title}</h5>
+		<p class="card-text">${data.Type}</p>
+		<p class="card-text"><small class="text-muted">${data.Year}</small></p>
+		</div>
+		</div>`;
+			})
+	})
+	document.getElementById('todo').style.display = 'none';
+});
+
+//BOTON de Sci-Fi - VARINEA--
+
+document.getElementById('sci').addEventListener('click', () => {
+	const moviesSci = ['tt0379786', 'tt7605074', 'tt4154664', 'tt5884052', 'tt8155288', 'tt6418778', 'tt6823368', 'tt9204204', 'tt5886046', 'tt6146586'];
+	html.innerHTML = ""
+	moviesSci.forEach(element => {
+		fetch(`http://www.omdbapi.com/?i=${element}&apikey=fbdf5d5c`)
+			.then(response => response.json())
+			.then(data => {
+				html.innerHTML += `<div class="card-group col-2 custom-card">
+		<div class="card">
+		<img class="card-img-top custom-img" src="${data.Poster}" alt="Card image cap">
+		<div class="card-body">
+		<h5 class="custom-title">${data.Title}</h5>
+		<p class="card-text">${data.Type}</p>
+		<p class="card-text"><small class="text-muted">${data.Year}</small></p>
+		</div>
+		</div>`;
+			})
+	})
+	document.getElementById('todo').style.display = 'none';
+});
+
+//BOTON de SUSPENSO - VARINEA--
+
+document.getElementById('suspense').addEventListener('click', () => {
+	const movieSuspense = ['tt6823368', 'tt0379786', 'tt2481498', 'tt5719748', 'tt8155288', 'tt0437086', 'tt7134096', 'tt8350360', 'tt6857112', 'tt5968394'];
+	html.innerHTML = ""
+	movieSuspense.forEach(element => {
+		fetch(`http://www.omdbapi.com/?i=${element}&apikey=fbdf5d5c`)
+			.then(response => response.json())
+			.then(data => {
+				html.innerHTML += `<div class="card-group col-2 custom-card">
+		<div class="card">
+		<img class="card-img-top custom-img" src="${data.Poster}" alt="Card image cap">
+		<div class="card-body">
+		<h5 class="custom-title">${data.Title}</h5>
+		<p class="card-text">${data.Type}</p>
+		<p class="card-text"><small class="text-muted">${data.Year}</small></p>
+		</div>
+		</div>`;
+			})
+	})
+	document.getElementById('todo').style.display = 'none';
+});
+
+
+//BOTON de SUPERHERO - VARINEA--
+
+document.getElementById('hero').addEventListener('click', () => {
+	const movieSuperHero = ['tt6823368', 'tt4154664', 'tt0448115', 'tt2274648', 'tt4154796', 'tt10440726', 'tt6320628', 'tt7286456', 'tt4682266', 'tt1206546'];
+	html.innerHTML = ""
+	movieSuperHero.forEach(element => {
+		fetch(`http://www.omdbapi.com/?i=${element}&apikey=fbdf5d5c`)
+			.then(response => response.json())
+			.then(data => {
+				html.innerHTML += `<div class="card-group col-2 custom-card">
+		<div class="card">
+		<img class="card-img-top custom-img" src="${data.Poster}" alt="Card image cap">
+		<div class="card-body">
+		<h5 class="custom-title">${data.Title}</h5>
+		<p class="card-text">${data.Type}</p>
+		<p class="card-text"><small class="text-muted">${data.Year}</small></p>
+		</div>
+		</div>`;
+			})
+	})
+	document.getElementById('todo').style.display = 'none';
+});
+
+
+
+
+
 // ESTRENOS- VARINEA--
 
 let estPremiere = document.getElementById('premiere');
