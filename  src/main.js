@@ -287,6 +287,11 @@ const serieTv = ['tt4686698', 'tt7366338', 'tt2372162', 'tt5685432', 'tt7949218'
  // para que no se impriman otras paginas/botones al seleccionarla
  serieTv.forEach(element => {
 	html.className= 'custom-container row';
+let estMovies = document.getElementById('premiere');
+const moviesEstreno = ['tt2058617', 'tt0026529', 'tt5190732', 'tt1537860', 'tt1502397','tt10239898'];
+ // para que no se impriman otras paginas/botones al seleccionarla
+moviesEstreno.forEach(element => {
+	html.className= 'row-category';
 	fetch(`http://www.omdbapi.com/?i=${element}&apikey=fbdf5d5c`)
 		.then(response => response.json())
 		.then(data => {
