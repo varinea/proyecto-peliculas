@@ -90,7 +90,7 @@ body{background: #252327}
 }
 /* SLIDER */
 .sliderMovie{
-    width: 60%;
+    width: 50%;
     display: block;
     margin: auto;
 }
@@ -161,4 +161,3 @@ footer p {
 ul{
     margin-bottom: 0px !important;
 }
-
