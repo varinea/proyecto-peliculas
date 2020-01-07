@@ -117,11 +117,3 @@ footer p {
 .hidden{
     visibility: hidden;
     }
-
-    .estrenos {
-    display: flex;
-    width: 80%;
-    margin: 0%;
-    justify-content: left;
-    padding-top: 0%;
-  }

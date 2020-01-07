@@ -173,7 +173,7 @@ document.getElementById('animated').addEventListener('click', () => {
 
 
 
-// ESTRENOS- VARINEA--
+// SECCIÓN ESTRENOS- VARINEA--
 
 let estMovies = document.getElementById('premiere');
 const moviesEstreno = ['tt2058617', 'tt0026529', 'tt5190732', 'tt1537860', 'tt1502397'];
