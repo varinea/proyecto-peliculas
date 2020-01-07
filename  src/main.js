@@ -34,7 +34,7 @@ document.getElementById('search-bar').addEventListener('keydown', (e) => {
 document.getElementById('action').addEventListener ('click', () => {
 	const moviesAction = ['tt8106534','tt0437086','tt7456310','tt4154664','tt7961060','tt6146586','tt9817236','tt6320628','tt6450804','tt4154796']; 
 	html.innerHTML='';
-	html.className= 'custom-container';
+	html.className= 'custom-container row';
 	moviesAction.forEach(element => {
 		fetch(`http://www.omdbapi.com/?i=${element}&apikey=fbdf5d5c`)
 		.then(response => response.json())
