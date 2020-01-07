@@ -68,7 +68,16 @@ body{background: #252327}
 	height: 400px;
     margin-bottom: 50px;
     color: black;
+    background-color: #252327;
 }
+
+.simple-card{
+    height: 240px;
+    margin-bottom: 50px;
+    color: black;
+    background-color: #252327;  
+}
+
 .card-group {
     background-color: #252327;
 }
@@ -85,8 +94,9 @@ body{background: #252327}
 }
 .custom-category{
     padding: 5px; 
-    background-color: black;
+    /* background-color: black; */
     color: white;
+
     
 }
 /* SLIDER */
@@ -99,25 +109,24 @@ body{background: #252327}
 .row {
     justify-content: center;
     text-align: center;  
-    background-color: black;
     color: white;
     margin: 0%;
+    background-color: #252327;
 }
 .row-category{
     /* justify-content: center;
     text-align: center; */
-    padding: 5px; 
-    background-color: black;
+    padding: 5px;
+    padding-left: 40px; 
+    background-color: black; /*si*/
     color: white;
     
 }
 .custom-container{
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: black;
-    
+    background-color: #252327;
 }
-
 
 /* FOOTER */
 footer {
@@ -171,3 +180,4 @@ footer p {
 ul{
     margin-bottom: 0px !important;
 }
+
