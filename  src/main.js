@@ -182,7 +182,7 @@ let estMovies = document.getElementById('premiere');
 const moviesEstreno = ['tt2058617', 'tt0026529', 'tt5190732', 'tt1537860', 'tt1502397','tt10239898'];
  // para que no se impriman otras paginas/botones al seleccionarla
 moviesEstreno.forEach(element => {
-	html.className= 'custom-container row';
+	html.className= 'row-category';
 	fetch(`http://www.omdbapi.com/?i=${element}&apikey=fbdf5d5c`)
 		.then(response => response.json())
 		.then(data => {
