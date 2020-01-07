@@ -300,7 +300,7 @@ moviesHero.forEach(element => {
 		.then(data => {
 			estHero.innerHTML += 
 		`
-		<div class="card-group col-2 custom-card">
+		<div class="card-group col-2 simple-card">
 		<img class="card-img-top custom-img" src="${data.Poster}" alt="Card image cap">
 		`;
 		})
