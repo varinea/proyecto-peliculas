@@ -2,12 +2,14 @@
 
 let html = document.getElementById('root');
 
+
 document.getElementById('search-bar').addEventListener('keydown', (e) => {
 	if (e.keyCode === 13) {
 		fetch(`http://www.omdbapi.com/?s=${e.target.value}&apikey=fbdf5d5c`)
 		.then(response => response.json())
 		.then(json => {
 			console.log(json);
+			html.innerHTML='';
 			json.Search.map((i) => {
 				html.innerHTML +=  `<div class="card-group col-2 custom-card">
 				<div class="card">
@@ -30,11 +32,13 @@ document.getElementById('search-bar').addEventListener('keydown', (e) => {
 
 document.getElementById('action').addEventListener ('click', () => {
 	const moviesAction = ['tt8106534','tt0437086','tt7456310','tt4154664','tt7961060','tt6146586','tt9817236','tt6320628','tt6450804','tt4154796']; 
-	
+	html.innerHTML='';
+	html.className= 'custom-container row';
 	moviesAction.forEach(element => {
 		fetch(`http://www.omdbapi.com/?i=${element}&apikey=fbdf5d5c`)
 		.then(response => response.json())
 		.then(data  => { 
+			
 		html.innerHTML +=  `<div class="card-group col-2 custom-card">
 		<div class="card">
 		<img class="card-img-top custom-img" src="${data.Poster}" alt="Card image cap">
@@ -53,7 +57,8 @@ document.getElementById('action').addEventListener ('click', () => {
 
 document.getElementById('aventure').addEventListener ('click', () => {
 	const moviesAventure = ['tt7975244','tt6141246','tt6139732','tt6054846','tt10874292','tt4912910','tt8995218','tt1365519','tt1677720','tt1477834']; 
-	
+	html.innerHTML='';
+	html.className= 'custom-container row';
 	moviesAventure.forEach(element => {
 		fetch(`http://www.omdbapi.com/?i=${element}&apikey=fbdf5d5c`)
 		.then(response => response.json())
@@ -76,7 +81,8 @@ document.getElementById('aventure').addEventListener ('click', () => {
 
 document.getElementById('biography').addEventListener ('click', () => {
 	const moviesBiography = ['tt1302006','tt8404614','tt6394270','tt5116302','tt6141246','tt11199464','tt1950186','tt3513548','tt3224458','tt7984766']; 
-	
+	html.innerHTML='';
+	html.className= 'custom-container row';
 	moviesBiography.forEach(element => {
 		fetch(`http://www.omdbapi.com/?i=${element}&apikey=fbdf5d5c`)
 		.then(response => response.json())
@@ -100,7 +106,8 @@ document.getElementById('biography').addEventListener ('click', () => {
 
 document.getElementById('documentary').addEventListener ('click', () => {
 	const moviesDocumentary  = ['tt9351980','tt8923482','tt9358044','tt9358204','tt9412098','tt9573980','tt8760684','tt8299654','tt8991268','tt9617456']; 
-	
+	html.innerHTML='';
+	html.className= 'custom-container row';
 	moviesDocumentary.forEach(element => {
 		fetch(`http://www.omdbapi.com/?i=${element}&apikey=fbdf5d5c`)
 		.then(response => response.json())
@@ -123,7 +130,8 @@ document.getElementById('documentary').addEventListener ('click', () => {
 
 document.getElementById('fantasy').addEventListener ('click', () => {
 	const moviesfantasy  = ['tt4777008','tt2935510','tt6324278','tt4682804','tt1025100','tt1560220','tt6450804','tt5606664','tt4520988']; 
-	
+	html.innerHTML='';
+	html.className= 'custom-container row';
 	moviesfantasy.forEach(element => {
 		fetch(`http://www.omdbapi.com/?i=${element}&apikey=fbdf5d5c`)
 		.then(response => response.json())
@@ -147,7 +155,8 @@ document.getElementById('fantasy').addEventListener ('click', () => {
 
 document.getElementById('animated').addEventListener ('click', () => {
 	const moviesAnimated  = ['tt4520988','tt4729430','tt2386490','tt6428676','tt5113040','tt1979376','tt4199898','tt6095472','tt5814534','tt1620981']; 
-	
+	html.innerHTML='';
+	html.className= 'custom-container row';
 	moviesAnimated.forEach(element => {
 		fetch(`http://www.omdbapi.com/?i=${element}&apikey=fbdf5d5c`)
 		.then(response => response.json())
