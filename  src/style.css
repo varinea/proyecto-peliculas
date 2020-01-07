@@ -104,9 +104,10 @@ body{background: #252327}
     margin: 0%;
 }
 .row-category{
-    /* justify-content: center;
+     /* justify-content: center;
     text-align: center; */
-    padding: 5px; 
+    padding: 5px;
+    padding-left: 40px; 
     background-color: black;
     color: white;
     
@@ -114,7 +115,7 @@ body{background: #252327}
 .custom-container{
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: black;
+    background-color: #252327;
     
 }
 
