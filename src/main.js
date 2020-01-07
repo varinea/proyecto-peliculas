@@ -195,6 +195,24 @@ moviesEstreno.forEach(element => {
 		})
 })
 
+// SERIESTV- VARINEA--
+
+let estMovies = document.getElementById('serieTv');
+const serieTv = ['tt3728462', 'tt0026529', 'tt5190732', 'tt1537860', 'tt1502397'];
+ // para que no se impriman otras paginas/botones al seleccionarla
+ serieTv.forEach(element => {
+	html.className= 'custom-container row';
+	fetch(`http://www.omdbapi.com/?i=${element}&apikey=fbdf5d5c`)
+		.then(response => response.json())
+		.then(data => {
+			estMovies.innerHTML += 
+		`
+		<div class="card-group col-2 custom-card">
+		<img class="card-img-top custom-img" src="${data.Poster}" alt="Card image cap">
+		`;
+		})
+})
+
 //Ciencia Ficción Star Wars, E.T. El extraterrestre, Metrópolis, Gravity, Jurassic Park
 // document.getElementById('action').addEventListener('click', () => {
 // 	const moviesAction = ['tt0437086','tt0437086']; 
