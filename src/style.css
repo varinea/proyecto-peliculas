@@ -79,6 +79,12 @@ body{background: #252327}
 	width:50%;
 	height:50%; 
 }
+.custom-category{
+    padding: 5px; 
+    background-color: black;
+    color: white;
+    
+}
 /* SLIDER */
 .sliderMovie{
     width: 40%;
@@ -86,13 +92,29 @@ body{background: #252327}
     margin: auto;
 }
 /* CATEGORYS */
-.row {
- 
+/* .row {
     justify-content: center;
-    padding: 55px;
-    text-align: center;
+    text-align: center; 
+    padding: 20px; 
     background-color: black;
+    color: white;
+} */
+.row {
+    /* justify-content: center;
+    text-align: center; */
+    padding: 5px; 
+    background-color: black;
+    color: white;
+    
 }
+.custom-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    
+}
+
+
 /* FOOTER */
 footer {
     background-image: url('https://thumbnailer.mixcloud.com/unsafe/1200x628/profile/3/4/b/9/616f-ea8f-4ad9-b20d-91c693c85f2f');
@@ -114,6 +136,8 @@ footer p {
     padding-top: 20px;
     align-self: flex-end;
 }
-.hidden{
-    visibility: hidden;
-    }
+    
+ul{
+    margin-bottom: 0px !important;
+}
+
