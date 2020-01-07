@@ -283,7 +283,7 @@ moviesEstreno.forEach(element => {
 // SERIESTV- VARINEA--
 
 let estMovies = document.getElementById('serieTv');
-const serieTv = ['tt3728462', 'tt0026529', 'tt5190732', 'tt1537860', 'tt1502397'];
+const serieTv = ['tt4686698', 'tt7366338', 'tt2372162', 'tt5685432', 'tt7949218'];
  // para que no se impriman otras paginas/botones al seleccionarla
  serieTv.forEach(element => {
 	html.className= 'custom-container row';
