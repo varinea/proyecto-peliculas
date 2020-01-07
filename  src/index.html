@@ -17,7 +17,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
 		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 		crossorigin="anonymous"></script>
-	<title>GoMovies</title>
+	<title>GoMovies Peliculas</title>
 </head>
 
 <body>
@@ -25,13 +25,11 @@
 	<div class="contenedor">
 
 		<nav class="imgHeader">
-			<a title="Home" href="index.html"><img class="logo" src="./img/logo.png" alt="Logo"></a>
 			<img src="../ src/img/logo.png" class="logo">
 
 			<input id="search-bar" class="search-bar col-4" type="text"
-				placeholder="Buscar por Nombre, Director, Actor...              🔎">
+				placeholder="Buscar por Nombre, Director, Actor...                        🔎">
 		</nav>
-
 		<nav>
 			<ul class="btns">
 				<li class="botones" id="action" href="#">Accion</li>
@@ -40,20 +38,14 @@
 				<li class="botones" id="documentary" href="#">Documental</li>
 				<li class="botones" id="fantasy" href="#">Fantasía</li>
 				<li class="botones" id="animated" href="#">Animación</li>
-				<li class="botones" id="mystery" href="#">Misterio</li>
-				<li class="botones" id="sci" href="#">Sci-Fi</li>
-				<li class="botones" id="suspense" href="#">Suspenso</li>
-				<li class="botones" id="hero" href="#">Super Heroe</li>
+				<li class="botones" id="" href="#">Misterio</li>
+				<li class="botones" id="" href="#">Sci-Fi</li>
+				<li class="botones" id="" href="#">Suspenso</li>
+				<li class="botones" id="" href="#">Super Heroe</li>
 			</ul>
 		</nav>
-<<<<<<< HEAD:src/index.html
-
-		<div class='row' id="root"></div>
-		<!-- Carrusel -->
-=======
 		<div id="root"></div>
 
->>>>>>> 7e86a36a2db048a91073e98caf7c8bf809a453a1: src/index.html
 		<div id="todo">
 
 			<!-- Carrusel -->
@@ -62,8 +54,9 @@
 					<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
 					<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
 					<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+					<li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
 				</ol>
-				<div class="carousel-inner">
+				<div style="background: #252327" ; class="carousel-inner">
 					<div class="carousel-item active">
 						<img src="./img/peli1.jpg" class="sliderMovie" alt="...">
 						<div class="carousel-caption d-none d-md-block">
@@ -71,25 +64,19 @@
 						</div>
 					</div>
 					<div class="carousel-item">
-<<<<<<< HEAD:src/index.html
-						<img src="./img/los-crimenes-de-grindelwald.jpg" class="sliderMovie" alt="...">
-=======
 						<img src="./img/peli2.jpg" class="sliderMovie" alt="...">
->>>>>>> 7e86a36a2db048a91073e98caf7c8bf809a453a1: src/index.html
 						<div class="carousel-caption d-none d-md-block">
 							<p>2019</p>
 						</div>
+
 					</div>
 					<div class="carousel-item">
-<<<<<<< HEAD:src/index.html
-						<img src="./img/los-crimenes-de-grindelwald.jpg" class="sliderMovie" alt="...">
-=======
 						<img src="./img/peli3.jpg" class="sliderMovie" alt="...">
->>>>>>> 7e86a36a2db048a91073e98caf7c8bf809a453a1: src/index.html
 						<div class="carousel-caption d-none d-md-block">
 							<p>2019</p>
 						</div>
 					</div>
+
 				</div>
 				<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -100,30 +87,9 @@
 					<span class="sr-only">Next</span>
 				</a>
 			</div>
-
 			<!-- Categorias  -->
-<<<<<<< HEAD:src/index.html
 
-			<!-- Estrenos VARINEA  -->
-			<div class="row">
-				<h2>Estrenos</h2>
-				<div id="premiere"></div>
-			</div>
-		
-			<div class="row">
-				<h2>Series</h2>
-				<div id="serieTv"></div>
-			</div>
-
-
-			<div class="row">
-				<div class="category">
-					<h2>Fandom</h2>
-					<h2>Siguenos!</h2>
-				</div>
-			</div>
-=======
-
+			
 			<!-- Fandom -->
 			<div class="row-category">
 				<h2>Fandom</h2>
@@ -163,18 +129,21 @@
 			</div>
 			<div id="premiere" class="row"></div>
 
->>>>>>> 7e86a36a2db048a91073e98caf7c8bf809a453a1: src/index.html
+			<div class="row-category">
+				<h2>Series de Tv</h2>
+			</div>
+			<div id="serieTv" class="row"></div>
+
 		</div>
 	</div>
-
 	<footer>
+		<!-- <h2>Siguenos!</h2> -->
 		<img src="./img/twitter.png" class="social-icon">
 		<img src="./img/instagram.png" class="social-icon">
 		<img src="./img/facebook.png" class="social-icon">
 		<p>Todos los derechos reservados</p>
 	</footer>
-
 	<script src="main.js"></script>
-
 </body>
+
 </html>

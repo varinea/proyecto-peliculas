@@ -138,9 +138,6 @@ footer p {
     padding-top: 20px;
     align-self: flex-end;
 }
-.hidden{
-    visibility: hidden;
-    }
 /* COLUMNAS FANDOM */
 .columna {
     display: inline-block;
@@ -160,4 +157,3 @@ footer p {
 ul{
     margin-bottom: 0px !important;
 }
-
