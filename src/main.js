@@ -127,6 +127,36 @@ document.getElementById('documentary').addEventListener ('click', () => {
      document.getElementById('todo').style.display='none';
 });
 
+
+
+// Peliculas de Historia
+document.getElementById('history').addEventListener('click', () => {
+	const moviesHistory = ['tt2306299','tt1271989', 'tt4786824', 'tt2076298', 'tt7984766', 'tt7366338', 'tt7549996', 'tt8236336', 'tt2328900', 'tt4179452']; 
+	let arrayData= [];
+	moviesHistory.forEach(element => {
+		fetch(`http://www.omdbapi.com/?i=${element}&apikey=fbdf5d5c`)
+		.then(response => response.json())
+	//	.then(json => arrayData.push(json))
+		//.then (arrayData => imprimirHTML(arrayData.results));
+		.then (response => console.log(response))
+		})
+		console.log(arrayData);
+	});
+
+	function imprimirHTML(arrayData) {
+		arrayData.forEach(pelicula => {
+			const li = document.createElement('li');
+			const {poster, title, year, runtime} = pelicula;
+			li.innerHTML = `
+			Imagen: ${poster}
+			Nombre: ${title}
+			Año: ${year}
+			Duracion: ${runtime}
+			`;
+			document.querySelector('#root').appendChild(li);
+		})
+	}
+=======
 //BOTON de FANTASIA - VARINEA--
 
 document.getElementById('fantasy').addEventListener ('click', () => {
@@ -206,3 +236,4 @@ moviesEstreno.forEach(element => {
 // 	console.log(arrayData);
 
 // });
+
