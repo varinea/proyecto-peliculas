@@ -79,6 +79,12 @@ body{background: #252327}
 	width:50%;
 	height:50%; 
 }
+.custom-category{
+    padding: 5px; 
+    background-color: black;
+    color: white;
+    
+}
 /* SLIDER */
 .sliderMovie{
     width: 40%;
@@ -93,17 +99,19 @@ body{background: #252327}
     background-color: black;
     color: white;
 } */
-.rows {
+.row {
     /* justify-content: center;
     text-align: center; */
-    padding: 20px; 
+    padding: 5px; 
     background-color: black;
     color: white;
+    
 }
 .custom-container{
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: black;
+    
 }
 
 
