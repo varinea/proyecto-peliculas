@@ -178,11 +178,26 @@ document.getElementById('animated').addEventListener ('click', () => {
 
 // ESTRENOS- VARINEA--
 
-let estMovies = document.getElementById('premiere');
+let estPremiere = document.getElementById('premiere');
 const moviesEstreno = ['tt2058617', 'tt0026529', 'tt5190732', 'tt1537860', 'tt1502397','tt10239898'];
  // para que no se impriman otras paginas/botones al seleccionarla
 moviesEstreno.forEach(element => {
-	html.className= 'row-category';
+	html.className= 'row';
+	fetch(`http://www.omdbapi.com/?i=${element}&apikey=fbdf5d5c`)
+		.then(response => response.json())
+		.then(data => {
+			estPremiere.innerHTML += 
+		`
+		<div class="card-group col-2 custom-card">
+		<img class="card-img-top custom-img" src="${data.Poster}" alt="Card image cap">
+		`;
+		})
+})
+let estMovies = document.getElementById('serieTv');
+const serieTv = ['tt4686698', 'tt7366338', 'tt2372162', 'tt5685432', 'tt7949218', 'tt2861424'];
+ // para que no se impriman otras paginas/botones al seleccionarla
+ serieTv.forEach(element => {
+	html.className= 'row';
 	fetch(`http://www.omdbapi.com/?i=${element}&apikey=fbdf5d5c`)
 		.then(response => response.json())
 		.then(data => {
@@ -192,7 +207,7 @@ moviesEstreno.forEach(element => {
 		<img class="card-img-top custom-img" src="${data.Poster}" alt="Card image cap">
 		`;
 		})
-})
+});
 
 //Ciencia Ficción Star Wars, E.T. El extraterrestre, Metrópolis, Gravity, Jurassic Park
 // document.getElementById('action').addEventListener('click', () => {
