@@ -17,7 +17,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
 		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 		crossorigin="anonymous"></script>
-	<title>GoMovies Peliculas</title>
+	<title>GoMovies</title>
 </head>
 
 <body>
@@ -28,11 +28,8 @@
 			<a title="Home" href="index.html"><img class="logo" src="./img/logo.png" alt="Logo"></a>
 			<input id="search-bar" class="search-bar col-4" type="text"
 				placeholder="Buscar por Nombre, Director, Actor...              🔎">
-			<img src="./img/logo.png" class="logo">
-
-			<input id="search-bar" class="search-bar col-4" type="text"
-				placeholder="Buscar por Nombre, Director, Actor...                        🔎">
 		</nav>
+
 		<nav>
 			<ul class="btns">
 				<li class="botones" id="action" href="#">Accion</li>
@@ -41,15 +38,14 @@
 				<li class="botones" id="documentary" href="#">Documental</li>
 				<li class="botones" id="fantasy" href="#">Fantasía</li>
 				<li class="botones" id="animated" href="#">Animación</li>
-				<li class="botones" id="" href="#">Misterio</li>
-				<li class="botones" id="" href="#">Sci-Fi</li>
-				<li class="botones" id="" href="#">Suspenso</li>
-				<li class="botones" id="" href="#">Super Heroe</li>
+				<li class="botones" id="mystery" href="#">Misterio</li>
+				<li class="botones" id="sci" href="#">Sci-Fi</li>
+				<li class="botones" id="suspense" href="#">Suspenso</li>
+				<li class="botones" id="hero" href="#">Super Heroe</li>
 			</ul>
 		</nav>
 
 		<div class='row' id="root"></div>
-		<div id="root"></div>
 		<!-- Carrusel -->
 		<div id="todo">
 
@@ -58,9 +54,8 @@
 					<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
 					<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
 					<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-					<li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
 				</ol>
-				<div style="background: #252327" ; class="carousel-inner">
+				<div class="carousel-inner">
 					<div class="carousel-item active">
 						<img src="./img/los-crimenes-de-grindelwald.jpg" class="sliderMovie" alt="...">
 						<div class="carousel-caption d-none d-md-block">
@@ -68,19 +63,17 @@
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img src="./img/foto2.jpg" class="sliderMovie" alt="...">
+						<img src="./img/los-crimenes-de-grindelwald.jpg" class="sliderMovie" alt="...">
 						<div class="carousel-caption d-none d-md-block">
 							<p>2019</p>
 						</div>
-
 					</div>
 					<div class="carousel-item">
-						<img src="./img/foto3.jpg" class="sliderMovie" alt="...">
+						<img src="./img/los-crimenes-de-grindelwald.jpg" class="sliderMovie" alt="...">
 						<div class="carousel-caption d-none d-md-block">
 							<p>2019</p>
 						</div>
 					</div>
-
 				</div>
 				<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -94,10 +87,15 @@
 
 			<!-- Categorias  -->
 
-			<!-- Estrenos VARINEA  -->
+<!-- ESTRENOS VARINEA  -->
 			<div class="row">
 				<h2>Estrenos</h2>
 				<div id="premiere"></div>
+			</div>
+<!-- SERIES VARINEA  -->
+			<div class="row">
+				<h2>Series</h2>
+				<div id="serieTv"></div>
 			</div>
 
 			<div class="row">
@@ -106,18 +104,10 @@
 					<h2>Siguenos!</h2>
 				</div>
 			</div>
-			<!-- Fandom -->
-			<div class="custom-category" > <h2>Fandom</h2> </div>
-			<!-- Estrenos -->
-			<div class="custom-category"> <h2>Estrenos</h2> </div>
-			<div id="premiere" class="row"></div>
-
-			
-		
 		</div>
 	</div>
+
 	<footer>
-		<!-- <h2>Siguenos!</h2> -->
 		<img src="./img/twitter.png" class="social-icon">
 		<img src="./img/instagram.png" class="social-icon">
 		<img src="./img/facebook.png" class="social-icon">
