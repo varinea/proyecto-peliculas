@@ -90,7 +90,7 @@ body{background: #252327}
 }
 /* SLIDER */
 .sliderMovie{
-    width: 40%;
+    width: 60%;
     display: block;
     margin: auto;
 }
@@ -115,6 +115,9 @@ body{background: #252327}
     padding-bottom: 20px;
     background-color: black;
     
+}
+.custom-imgSeries{
+    padding: 20px;
 }
 
 
