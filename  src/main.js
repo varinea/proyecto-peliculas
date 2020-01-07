@@ -301,8 +301,8 @@ moviesEstreno.forEach(element => {
 		<img class="card-img-top custom-img" src="${data.Poster}" alt="Card image cap">
 		`;
 		})
+})
 });
-
 
 //Ciencia Ficción Star Wars, E.T. El extraterrestre, Metrópolis, Gravity, Jurassic Park
 // document.getElementById('action').addEventListener('click', () => {
