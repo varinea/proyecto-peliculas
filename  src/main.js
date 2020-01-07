@@ -270,9 +270,6 @@ document.getElementById('hero').addEventListener('click', () => {
 });
 
 
-
-
-
 // ESTRENOS- VARINEA--
 
 let estPremiere = document.getElementById('premiere');
@@ -289,9 +286,31 @@ moviesEstreno.forEach(element => {
 		<img class="card-img-top custom-img" src="${data.Poster}" alt="Card image cap">
 		`;
 		})
-})
+});
+
+// HEROES- VARINEA--
+
+let estHero = document.getElementById('superHero');
+const moviesHero = ['tt6823368', 'tt4154664', 'tt0448115', 'tt2274648', 'tt4154796', 'tt10440726'];
+ // para que no se impriman otras paginas/botones al seleccionarla
+moviesHero.forEach(element => {
+	html.className= 'row';
+	fetch(`http://www.omdbapi.com/?i=${element}&apikey=fbdf5d5c`)
+		.then(response => response.json())
+		.then(data => {
+			estHero.innerHTML += 
+		`
+		<div class="card-group col-2 simple-card">
+		<img class="card-img-top custom-img" src="${data.Poster}" alt="Card image cap">
+		`;
+		})
+});
+
+
+// SERIES- VARINEA--
+
 let estMovies = document.getElementById('serieTv');
-const serieTv = ['tt4686698', 'tt7366338', 'tt2372162', 'tt5685432', 'tt7949218', 'tt2861424'];
+const serieTv = ['tt4686698', 'tt7366338', 'tt2372162', 'tt5180504', 'tt7949218', 'tt2861424'];
  // para que no se impriman otras paginas/botones al seleccionarla
  serieTv.forEach(element => {
 	html.className= 'row';

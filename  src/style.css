@@ -101,7 +101,7 @@ body{background: #252327}
 }
 /* SLIDER */
 .sliderMovie{
-    width: 40%;
+    width: 60%;
     display: block;
     margin: auto;
 }
@@ -114,7 +114,7 @@ body{background: #252327}
     background-color: #252327;
 }
 .row-category{
-    /* justify-content: center;
+     /* justify-content: center;
     text-align: center; */
     padding: 5px;
     padding-left: 40px; 
