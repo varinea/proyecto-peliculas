@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Prompt|Roboto&display=swap');
 *{
 	list-style: none;
 	padding: 0px;
@@ -82,6 +83,7 @@ background-color:
     color: white;
     cursor: pointer;
     background: black;
+    font-family: 'Prompt', sans-serif;
 }
 .botones:hover{
     color:rgb(24, 12, 12);
@@ -101,7 +103,14 @@ background-color:
     color: black;
     background-color: #252327;  
 }
-
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+    background-color: #252327;
+    color: white;
+    border: 1px solid #252327;
+}
 .card-group {
     background-color: #252327;
 }
@@ -118,10 +127,7 @@ background-color:
 }
 .custom-category{
     padding: 5px; 
-    /* background-color: black; */
     color: white;
-
-    
 }
 /* SLIDER */
 .sliderMovie{
@@ -136,16 +142,15 @@ background-color:
     text-align: center; */
     padding: 5px;
     padding-left: 40px; 
-    background-color: black; /*si*/
+    background-color: black; 
     color: white;
-    
+    font-family: 'Prompt', sans-serif;
 }
 .custom-container{
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #252327;
 }
-
 /* FOOTER */
 footer {
     background-image: url('https://thumbnailer.mixcloud.com/unsafe/1200x628/profile/3/4/b/9/616f-ea8f-4ad9-b20d-91c693c85f2f');
@@ -179,20 +184,48 @@ footer p {
     background-color: black;
 }
 .category {
-    padding: 1% 3%;
+    padding: 3% 7%;
     background-color: #252327;
 }
-/* seccion noticias */
-.img-noticias{
-    width:30%;
-}
-.media{
+/* Seccion Noticias */
+.custom-noticias{
     color: white;
     padding: 10px;
+    margin-left: 60px;
 }
 .media-body{
-    padding-left: 5%;
-    line-height: 25px;
+    padding-left: 6%;
+    line-height: 20px;
+}
+.img-noticias{
+    width: 400px;
+    height: 255px;
+}
+.fecha{
+font-family: 'Prompt', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: #9AD8FB;
+}
+.titulo-noticias{
+font-family: 'Roboto', sans-serif;    
+font-style: normal;
+font-weight: 500;
+font-size: 23px;
+line-height: 28px;
+color: #F2F2F2;
+}
+.body-noticias{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    width: 87%;
+    color: #F2F2F2;
+    text-align: justify;
 }
     
 ul{
