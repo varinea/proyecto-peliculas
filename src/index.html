@@ -1,36 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-			crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-			crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-			crossorigin="anonymous"></script>
-		<title>GoMovies</title>
-	</head>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+	<title>GoMovies</title>
+</head>
 
 <body>
-	<!-- Menu  -->
+	<!-- Header  -->
 	<div class="contenedor">
-
 		<nav class="imgHeader">
 			<a title="Home" href="index.html"><img class="logo" src="./img/logo.png" alt="Logo"></a>
 			<input id="search-bar" class="search-bar col-4" type="text"
 				placeholder="Buscar por Nombre, Director, Actor...                        🔎">
 		</nav>
-
 		<nav>
+			<!-- Menu botones  -->
 			<ul class="btns">
 				<li class="botones" id="action" href="#">Accion</li>
 				<li class="botones" id="aventure" href="#">Aventura</li>
@@ -45,9 +44,7 @@
 			</ul>
 		</nav>
 		<div id="root"></div>
-
 		<div id="todo">
-
 			<!-- Carrusel -->
 			<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
@@ -68,7 +65,6 @@
 						<div class="carousel-caption d-none d-md-block">
 							<p>2019</p>
 						</div>
-
 					</div>
 					<div class="carousel-item">
 						<img src="./img/peli3.jpg" class="sliderMovie" alt="...">
@@ -76,7 +72,6 @@
 							<p>2019</p>
 						</div>
 					</div>
-
 				</div>
 				<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -87,14 +82,11 @@
 					<span class="sr-only">Next</span>
 				</a>
 			</div>
-			<!-- Categorias  -->
-
 			<!-- Fandom -->
 			<div class="rowNew-category">
 				<h2>Fandom</h2>
 			</div>
 			<div class="category">
-				<!-- Columnas fanpages  -->
 				<div class="columna">
 					<a href="https://starwars.fandom.com/wiki/Star_Wars" target="_blank"><img
 							src="./img/star-wars-100.png" class="colImg" alt="star wars"></a>
@@ -127,7 +119,6 @@
 			<div class="category">
 			</div>
 			<div id="premiere" class="rowNew"></div>
-
 			<!-- SuperHeroes -->
 			<div class="rowNew-category">
 				<h2>Super Héroes</h2>
@@ -135,7 +126,6 @@
 			<div class="category">
 			</div>
 			<div id="superHero" class="rowNew"></div>
-
 			<!-- Series -->
 			<div class="rowNew-category">
 				<h2>Series</h2>
@@ -143,51 +133,68 @@
 			<div class="category">
 			</div>
 			<div id="serieTv" class="rowNew"></div>
-
 			<!-- Noticias -->
 			<div class="rowNew-category">
 				<h2>Noticias</h2>
 			</div>
-			
 			<ul class="category">
 				<li class="media">
 					<img src="./img/El-senor-de-los-anillos-1.png" class="img-noticias" alt="...">
 					<div class="media-body">
 						<h6 class="fecha">02/01/2020</h6>
 						<h4 class="titulo-noticias">Serie el Señor de los anillos pierde a su protagonista.</h4> <br>
-						<h1 class="body-noticias">La adaptacion del Señor de los anillos de Amazon Prime Video , debe ser de las series mas esperadas. La serie cuenta con el Catalan J.A Bayona com o director , todavia no habia presentado de forma oficial los actores que encabezarian el reparto. Esto no habria evitado que se filtrasen los nombres de los principales fichajes : Markella Kavenagh , Maxim Baldry y Ema Horvath , ademas de Poulter , en un buen momento profesional tras participar en la pelicula interactiva de Netflix : BlackMirror “Bandersnatch” y la cinta de terror .</h1>
+						<h1 class="body-noticias">La adaptacion del Señor de los anillos de Amazon Prime Video , debe
+							ser de las series mas esperadas. La serie cuenta con el Catalan J.A Bayona com o director ,
+							todavia no habia presentado de forma oficial los actores que encabezarian el reparto. Esto
+							no habria evitado que se filtrasen los nombres de los principales fichajes : Markella
+							Kavenagh , Maxim Baldry y Ema Horvath , ademas de Poulter , en un buen momento profesional
+							tras participar en la pelicula interactiva de Netflix : BlackMirror “Bandersnatch” y la
+							cinta de terror .</h1>
 					</div>
 				</li>
 				<li class="media my-4">
 					<img src="./img/baby-yoda-2.jpg" class="img-noticias" alt="...">
 					<div class="media-body">
-							<h6 class="fecha">13/12/2019</h6>
-							<h4 class="titulo-noticias">Baby Yoda es “El corazon” de Star Wars.</h4> <br>
-							<h1 class="body-noticias">El estreno de “the Mandalorian” ha dejado a los Fans encantados con Baby Yoda, personaje ue es igual al maestroo Jedi , pero que no es el. La aparicion de la criatura se ha tomado las redes sociales , pues los usuarios han compartido masivamente las imagenes que se ven capitulo tras capitulo .Es esto mismo lo que ha llamado la atencion , pues se puede notar que practicamente los fanaticos estan mas interesados en lo que ocurre con el personaje que en lo que sucedera en “ Star Wars: The Rise of Skywalker “, film que esta ..</h1>
+						<h6 class="fecha">13/12/2019</h6>
+						<h4 class="titulo-noticias">Baby Yoda es “El corazon” de Star Wars.</h4> <br>
+						<h1 class="body-noticias">El estreno de “the Mandalorian” ha dejado a los Fans encantados con
+							Baby Yoda, personaje ue es igual al maestroo Jedi , pero que no es el. La aparicion de la
+							criatura se ha tomado las redes sociales , pues los usuarios han compartido masivamente las
+							imagenes que se ven capitulo tras capitulo .Es esto mismo lo que ha llamado la atencion ,
+							pues se puede notar que practicamente los fanaticos estan mas interesados en lo que ocurre
+							con el personaje que en lo que sucedera en “ Star Wars: The Rise of Skywalker “, film que
+							esta ..</h1>
 					</div>
 				</li>
 				<li class="media">
 					<img src="./img/avengers-spoilers-final-marvel-smash-cover.jpg" class="img-noticias" alt="...">
 					<div class="media-body">
-							<h6 class="fecha">20/12/2019</h6>
-							<h4 class="titulo-noticias">Marvel confirma protagonista transgenero en su proxima pelicula.</h4> <br>
-							<h1 class="body-noticias">Este año , en la pelicula Eternals , Marvel incluira su primer personaje gay. Desde 2019 ha habido informaciones en la prensa , segun la cual , la fase 4 de MCU , las peliculas posteriores a la saga Avengers Infinity Wars, tendria como protagonista a un personaje Trans. En julio del 2019 , Geeks Worldwide Insinuo que Marvel estaba buscando una mujer Trans para un proyecto que se iba a filmar el 2020.</h1>
+						<h6 class="fecha">20/12/2019</h6>
+						<h4 class="titulo-noticias">Marvel confirma protagonista transgenero en su proxima pelicula.
+						</h4> <br>
+						<h1 class="body-noticias">Este año , en la pelicula Eternals , Marvel incluira su primer
+							personaje gay. Desde 2019 ha habido informaciones en la prensa , segun la cual , la fase 4
+							de MCU , las peliculas posteriores a la saga Avengers Infinity Wars, tendria como
+							protagonista a un personaje Trans. En julio del 2019 , Geeks Worldwide Insinuo que Marvel
+							estaba buscando una mujer Trans para un proyecto que se iba a filmar el 2020.</h1>
 					</div>
 				</li>
 				<li class="media my-4">
 					<img src="./img/strangerthings.jpg" class="img-noticias" alt="...">
 					<div class="media-body">
-							<h6 class="fecha">26/12/2019</h6>
-							<h4 class="titulo-noticias">Stranger Things 4 : Esta es la teoria favorita de Dustin.</h4> <br>
-							<h1 class="body-noticias">El final de la serie Stranger Things dejo a todos los fans en vilo tras el fatidico final experimentado por los personajes mas jovenes del show. El actor Gaten Matarazzo , conocido por interpretar al carismatico Dustin Henderson en la serie ha podido repasar la actualida de stranger Things y desvelar algunas reflexiones internas del inminente rodaje de la cuarta temporada .</h1>
+						<h6 class="fecha">26/12/2019</h6>
+						<h4 class="titulo-noticias">Stranger Things 4 : Esta es la teoria favorita de Dustin.</h4> <br>
+						<h1 class="body-noticias">El final de la serie Stranger Things dejo a todos los fans en vilo
+							tras el fatidico final experimentado por los personajes mas jovenes del show. El actor Gaten
+							Matarazzo , conocido por interpretar al carismatico Dustin Henderson en la serie ha podido
+							repasar la actualida de stranger Things y desvelar algunas reflexiones internas del
+							inminente rodaje de la cuarta temporada .</h1>
 					</div>
 				</li>
 			</ul>
-			
 		</div>
 	</div>
 	<footer>
-		<!-- <h2>Siguenos!</h2> -->
 		<img src="./img/twitter.png" class="social-icon">
 		<img src="./img/instagram.png" class="social-icon">
 		<img src="./img/facebook.png" class="social-icon">
@@ -195,5 +202,4 @@
 	</footer>
 	<script src="main.js"></script>
 </body>
-
 </html>
