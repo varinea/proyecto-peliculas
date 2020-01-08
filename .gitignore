@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+coverage/
+node_modules/
+.DS_Store
+*.swp
+package-lock.json
+=======
+node_modules/
+coverage/
+.DS_Store
+*.swp
+package-lock.json
+>>>>>>> a354e427e4f2bdc64a4fb49736d9d6bfc48c06b6

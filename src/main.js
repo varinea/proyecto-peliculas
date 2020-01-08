@@ -273,7 +273,7 @@ document.getElementById('hero').addEventListener('click', () => {
 // ESTRENOS- VARINEA--
 
 let estPremiere = document.getElementById('premiere');
-const moviesEstreno = ['tt2058617', 'tt0026529', 'tt5190732', 'tt1537860', 'tt1502397','tt10239898'];
+const moviesEstreno = ['tt2058617', 'tt0026529', 'tt5190732', 'tt1537860', 'tt1502397'];
  // para que no se impriman otras paginas/botones al seleccionarla
 moviesEstreno.forEach(element => {
 	html.className= 'rowNew';
@@ -291,7 +291,7 @@ moviesEstreno.forEach(element => {
 // HEROES- VARINEA--
 
 let estHero = document.getElementById('superHero');
-const moviesHero = ['tt6823368', 'tt4154664', 'tt0448115', 'tt2274648', 'tt4154796', 'tt10440726'];
+const moviesHero = ['tt6823368', 'tt4154664', 'tt0448115', 'tt2274648', 'tt4154796'];
  // para que no se impriman otras paginas/botones al seleccionarla
 moviesHero.forEach(element => {
 	html.className= 'rowNew';
@@ -310,7 +310,7 @@ moviesHero.forEach(element => {
 // SERIES- VARINEA--
 
 let estMovies = document.getElementById('serieTv');
-const serieTv = ['tt4686698', 'tt7366338', 'tt2372162', 'tt5180504', 'tt7949218', 'tt2861424'];
+const serieTv = ['tt4686698', 'tt7366338', 'tt2372162', 'tt5180504', 'tt7949218'];
  // para que no se impriman otras paginas/botones al seleccionarla
  serieTv.forEach(element => {
 	html.className= 'rowNew';
