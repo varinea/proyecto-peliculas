@@ -78,6 +78,15 @@ body{background: #252327}
     color: black;
     background-color: #252327;  
 }
+.card-body {
+    /* -webkit-box-flex: 1; */
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+    background-color: #252327;
+    color: white;
+    border: 1px solid #252327;
+}
 
 .card-group {
     background-color: #252327;
