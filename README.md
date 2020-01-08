@@ -72,34 +72,34 @@ Para la organización y realizacion del proyecto, planificamos de la siguiente m
 
 Corina Varas (Master): 
 
-*Input search
-*Header
-*Slider 
-*Seccion de Noticias en J.s
+* Input search
+* Header
+* Slider 
+* Seccion de Noticias en J.S
 
 
 Monica Bartha (colaboradora):
 
-*Planificacion en Trello
-*Seccion _Fandom_ en j.s
-*
-*
+* Planificacion en Trello
+* Seccion _Fandom_ en J.S
+* 
+* Responsive
 
 
 Varinea Lopez (colaboradora):
 
-*Bottoms 
-*Modificaciones en Css
-*Callbacks de "Estreno" "Superheroes" y "Series" J.s
-*Calbacks por "Genero" en J.s
+* Bottoms 
+* Modificaciones en Css
+* Callbacks de "Estreno" "Superheroes" y "Series" J.S
+* Calbacks por "Genero" en J.s
 
 
 Andrea Vasquez (colaboradora):
 
-*Diseño Interfaz y Usabilidad
-*Protototipos Desktop y Movil en _Figma_
-*Creacion y redaccion de Read.me
-*Investigacion y test de usabilidad
+* Diseño Interfaz y Usabilidad
+* Protototipos Desktop y Movil en _Figma_
+* Creacion y redaccion de Read.me
+* Investigacion y test de usabilidad
 
 
 ___
@@ -110,7 +110,7 @@ ___
 
 #### Historia 1
 
->"Yo como usuario de _Go Movies_ , quiero buscar peliculas por palabra clave, para poder encontrarlas facilmente por el nombre ".
+>"Yo como usuario de _Go Movies_ , quiero buscar peliculas por palabra clave, para poder encontrarlas facilmente por el nombre , director o actor , ademas del nombre de la pelicula".
 
 
 #### Historia 2
@@ -120,7 +120,7 @@ ___
 
 #### Historia 3
 
->"Yo como usuario de _Go Movies_ , quiero clasificar las peliculas segun su fecha, para conocer cuales son los ultimos estrenos".
+>"Yo como usuario de _Go Movies_ , quiero agrupar peliculas segun su fecha, para conocer cuales son los ultimos estrenos".
 
 
 #### Historia 4
@@ -128,8 +128,57 @@ ___
 >"Yo como usuario de _Go Movies_ , quiero ordenar en forma separada las peliculas de las series , para poder diferenciar cuales son las series".
 
 
+#### Historia 5
+
+>"Yo como usuario de _Go Movies_ , quiero ver la imagen de cada pelicula en forma separada , para asi observar la imagen detallada de cada una".
 
 
+#### Historia 6
+
+>"Yo como usuario de _Go Movies_ , quiero ver la informacion de cada pelicula en forma separada , para asi leer la informacion detallada de cada una".
+
+
+#### Historia 7
+
+>"Yo como usuario de _Go Movies_ , quiero una seccion Fandom , para compartir con otros usuarios que tengan los mismos intereses"
+
+
+#### Historia 8
+
+>"Yo como usuario de _Go Movies_ , quiero una seccion de noticias de cine , para conocer las ultimas novedades sobre peliculas"
+
+
+#### Historia 9
+
+>"Yo como usuario de _Go Movies_ , quiero una seccion donde ver el trailer de cada pelicula , para conocer de que se trata y asi elegir la mejor opcion "
+
+
+
+
+
+#### Los objetivos principales se resumirían en :
+
+
+* Mostrar conjunto de imagenes de peliculas.
+
+* Agrupar segun genero. 
+
+* Agrupar segun fecha de Estreno.
+
+* Separar peliculas de series.
+
+* Visualizar imagenes de peliculas en tamaño grande.
+
+* Visualizar informacion detallada de cada pelicula.
+
+* Crear enlaces para Trailers en youtube , fandoms , y noticias de cine.
+ 
+
+
+___
+
+
+![Sketch]()
 
 
 
