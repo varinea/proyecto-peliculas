@@ -59,6 +59,7 @@ body{background: #252327}
     color: white;
     cursor: pointer;
     background: black;
+    font-family: 'Prompt', sans-serif;
 }
 .botones:hover{
     color:rgb(24, 12, 12);
@@ -79,7 +80,6 @@ body{background: #252327}
     background-color: #252327;  
 }
 .card-body {
-    /* -webkit-box-flex: 1; */
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     padding: 1rem;
@@ -87,7 +87,6 @@ body{background: #252327}
     color: white;
     border: 1px solid #252327;
 }
-
 .card-group {
     background-color: #252327;
 }
@@ -104,10 +103,7 @@ body{background: #252327}
 }
 .custom-category{
     padding: 5px; 
-    /* background-color: black; */
     color: white;
-
-    
 }
 /* SLIDER */
 .sliderMovie{
@@ -124,20 +120,17 @@ body{background: #252327}
     background-color: #252327;
 }
 .row-category{
-     /* justify-content: center;
-    text-align: center; */
     padding: 5px;
     padding-left: 40px; 
-    background-color: black; /*si*/
+    background-color: black; 
     color: white;
-    
+    font-family: 'Prompt', sans-serif;
 }
 .custom-container{
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #252327;
 }
-
 /* FOOTER */
 footer {
     background-image: url('https://thumbnailer.mixcloud.com/unsafe/1200x628/profile/3/4/b/9/616f-ea8f-4ad9-b20d-91c693c85f2f');
