@@ -318,3 +318,12 @@ const serieTv = ['tt4686698', 'tt7366338', 'tt2372162', 'tt5685432', 'tt7949218'
 // 	console.log(arrayData);
 
 // });
+
+// PAGINA FANDOM
+let clickFandom = document.getElementById('verMas');
+clickFandom.addEventListener("click", 
+function goToFandom() {
+	document.getElementById('allCol').style.display = 'block';
+	document.getElementById('todo').style.display = 'none';
+	
+});
