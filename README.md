@@ -213,7 +213,7 @@ Esta eleccion se dio en forma natural, debido a que el amarillo como color domin
 Mientras que el azul, el unico color primario del espectro frio, si bien es llamativo, ayuda a destacar sin agotar la vision, da una sensacion de calma y las letras en blanco son mas legibles en el.
 
 
- <img src="https://i.ibb.co/HnGCv89/Screenshot-20200108-215413-Chrome-1.jpg" alt="img1"  width="200" height="400"><img src="https://i.ibb.co/HnGCv89/Screenshot-20200108-215413-Chrome-1.jpg" alt="img1"  width="200" height="200"> <img src="https://i.ibb.co/DwVXTNQ/Screenshot-20200108-215413-Chrome-1-2.jpg" width="200" height="200">
+ <img src="https://i.ibb.co/HnGCv89/Screenshot-20200108-215413-Chrome-1.jpg" alt="img1"  width="200" height="400"><img src="https://i.ibb.co/HnGCv89/Screenshot-20200108-215413-Chrome-1.jpg" alt="img2"  width="200" height="400"> <img src="https://i.ibb.co/DwVXTNQ/Screenshot-20200108-215413-Chrome-1-2.jpg" alt="img3" width="200" height="400">
 
 
 
