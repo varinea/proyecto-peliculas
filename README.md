@@ -206,14 +206,13 @@ A la version movil se le hicieron las misma modificaciones y se trabajo en hacer
 
 ## Paleta de colores
 
-Para elegir la paleta de colores del prototipo, nos inspiramos en los colores 
-Sin embargo, nosotras usamos estos los mismos tonos, pero al reves.
-Ocupando el azul como color primario y el amarillo como color secundario, solo para algunos minimos detalles. 
-Esta eleccion se dio en forma natural, debido a que el amarillo como color dominante, satura y quita la atencion de las Imagenes, sin embargo en pequeñas dosis puede dar la sensacion de energia y positividad.
-Mientras que el azul, el unico color primario del espectro frio, si bien es llamativo, ayuda a destacar sin agotar la vision, da una sensacion de calma y las letras en blanco son mas legibles en el.
+Para elegir la paleta de colores del prototipo, buscamos varias opciones que representaran el genero de Sci-Fi y fantastico.
+En primera instancia , se penso en el color Azul como predominante y blanco para generar contraste, tal como sugieren los expertos en Ciencia ficcion , Chris Noessel y Nathan Shedroff en su libro : _Make it so : Interface Design lessons fron Sci-fi_ , la explicacion podria ser porque el color azul es muy inusual en la naturaleza y proyecta un aura de misticismo tecnologico.
+Sin embargo considerando que existen muchisimas plataformas con esa misma combinacion , despues de consultar con nuestros _Geeks_ expertos, la desicion final fue inspirarnos en paletas de Pantone con colores como :_silver_ , _Tap Shoe_ , _Magnet_ y _Majolica blue_ inspiradas en minerales como el grafito y telas plateadas como las que se utilizan para viajar al espacio exterior, pues se acercaba mejor al concepto  Futurista y Sci-fi que andabamos buscando, ademas de ayudar a resaltar las imagenes llenas de color de las peliculas.
+ 
 
 
- <img src="https://i.ibb.co/HnGCv89/Screenshot-20200108-215413-Chrome-1.jpg" alt="img1"  width="200" height="400"><img src="https://i.ibb.co/HnGCv89/Screenshot-20200108-215413-Chrome-1.jpg" alt="img2"  width="200" height="400"> <img src="https://i.ibb.co/DwVXTNQ/Screenshot-20200108-215413-Chrome-1-2.jpg" alt="img3" width="200" height="400">
+<img src="https://i.ibb.co/b18x8Hz/image-1.png" alt="img2"  width="500" height="200"> <img src="https://i.ibb.co/DwVXTNQ/Screenshot-20200108-215413-Chrome-1-2.jpg" alt="img2" width="500" height="100">
 
 
 
