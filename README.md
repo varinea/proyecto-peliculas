@@ -361,8 +361,34 @@ Para ver si se cumplen estos objetivos, haremos uso de la Evaluacion heuristica 
 
 Contactamos nuevamente a los chicos de _Deckmachine_  y segun sus intereses , seleccionamos a los mas cercanos a nuestro usuario objetivo, a la vez ellos contactaron a sus conocidas tambien con intereses similares , por lo que logramos testear a un grupo heterogeneo de hombres y mujeres con amor al cine Fantastico y de Ciencia ficcion.
 
+#### Usuario 1
+
+![usuario1](https://i.ibb.co/zRXFR9J/Pics-Art-01-09-10-48-38.png)
+
+Sergio Antonio , o "Toño" para los amigos , es el _Geek_ modelo : Hoy en dia esta terminando la carrera de Teatro , pues piensa desarrollar una carrera como comediante de Stand up , hace años atras estuvo estudiando Ciencias Fisicas y Astronomicas en la UdeC , pues su interes siempre ha sido relacionado con la Sci-Fi relacionada con el espacio , le gusta la Ufologia y el cine relacionado con esos temas.
+Es Fans de practicamente todas las sagas espaciales o relacionadas: Star Trek , Star Wars, Mandalorian , Expedientes secretos "X" etc.
+Durante su adolescencia fue _Gamer_ , asiduo a juegos de estrategia en linea como LoL , llego hasta organizar "Copas"  o competencias , fue campeon regional de ajedrez , y de cartas Pokemon.
+Tambien fue columnista en la desaparecida web Chilena de noticias geeks  _Ozom.cl_ , en ella con el pseudonimo de _Miunich_ , publicaba sobre temas de interes tales como Cine , juegos y datos geeks.
+
+<img src="" alt="img9"  width="500" height="250"><img src="" alt="img3" width="500" height="150">
 
 
+
+
+
+
+
+
+
+Para ver el video de entrevista y testeo del prototipo . Puedes revisar los siguiente links: 
+
+* Entrevista parte 1 [aquí]()
+* Test usabilidad   [aquí]()
+* Test usabilidad Desktop [aquí]()
+* Feedback [aquí]()
+
+
+ 
 
 
 
