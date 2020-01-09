@@ -327,9 +327,9 @@ Version para Desktop: para diseñar el prototipo para testeo utilizamos _Figma_.
 ___ 
 
 
-<img src="https://i.ibb.co/t3txJ48/Screenshot-from-2020-01-09-09-39-57.png" alt="img5"  width="500" height="250"><img src="https://i.ibb.co/Zcd27zQ/Screenshot-from-2020-01-09-09-37-03.png" alt="img6"  width="500" height="250">
+<img src="https://i.ibb.co/t3txJ48/Screenshot-from-2020-01-09-09-39-57.png" alt="img5"  width="400" height="200"><img src="https://i.ibb.co/Zcd27zQ/Screenshot-from-2020-01-09-09-37-03.png" alt="img6"  width="400" height="200">
 
-<img src="https://i.ibb.co/gDr1MF3/Screenshot-from-2020-01-09-09-36-16.png" alt="img7"  width="500" height="250"><img src="https://i.ibb.co/DfBTL89/Screenshot-from-2020-01-09-09-42-30.png" alt="img8"  width="500" height="250">
+<img src="https://i.ibb.co/gDr1MF3/Screenshot-from-2020-01-09-09-36-16.png" alt="img7"  width="400" height="200"><img src="https://i.ibb.co/DfBTL89/Screenshot-from-2020-01-09-09-42-30.png" alt="img8"  width="400" height="200">
 
 
 
