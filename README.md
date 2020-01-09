@@ -215,4 +215,109 @@ Sin embargo considerando que existen muchisimas plataformas con esa misma combin
 <img src="https://i.ibb.co/b18x8Hz/image-1.png" alt="img2"  width="500" height="200"> <img src="https://i.ibb.co/DwVXTNQ/Screenshot-20200108-215413-Chrome-1-2.jpg" alt="img2" width="500" height="100">
 
 
+Para traspasar los colores elegidosa codigo Hex y utilizarlos en nuestro prototipo de alta fidelidad ultilizamos la herramienta _Color Tool_.
+
+![paleta](https://i.ibb.co/tJX1FQ3/Screenshot-from-2020-01-05-01-57-57.png)
+
+
+
+ Si quieres revisar la paleta de colores puedes seguir este enlace: [aquí](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=4d4d4f&secondary.color=21759b)
+
+Para aplicarlos en el diseño , los distribuimos de la siguien te forma : Gris oscuro para Background , ya que es donde se veran las imagenes de peliculas y con esto se destacaran y Azul Majolica aplicado sutilmente en la imagen de fondo del Header y Footer , para mantener la idea de _Espacio Exterior_.
+
+
+
+## Principios de Diseño Visual
+
+
+### Contraste
+
+Existen 3 formas para generar contraste dentro de un diseño.
+
+A través de la forma, con la ruptura del patrón.
+A través del color, se basa en las propiedades del color (tono, valor, saturación).
+A través de relaciones de tamaño de las formas.
+Este principio se ocupo a traves de el color, como es un data con imagenes. El color gris usado como base , hace que destaque las imagenes a todo color de las peliculas.
+Tambien al usar Fuentes en color blanco sobre negro ( en los Menus) y gris en el resto de la pagina.
+Atraves de la forma , las portadas de peliculas se muestran rectangulares , excepto en la seccion _Fandom_ esto para resaltar que cambia el contenido de esa parte en especifico.
+Y Finalmente En la seccion de noticias el tamaño de las imagenes contrasta con el tamaño de las peliculas, con el mismo fin de destacar que es otro tipo de contenido.
+
+
+### Repeticion
+
+
+La repetición le da unidad, consistencia y cohesión al conjunto, esta suele aportar una inmediata sensación de armonía.
+La presencia de módulos tiende a unificar, por esto en el prototipo se mantiene la misma estructura ,los mismos colores , posicion y diseño de botones, solo habra cambios en el contenido de cada seccion.
+Repetimos la forma del Menu ( Negro , minimalista con letras blancas) en cada seccion que se requiera,  el header con el logo y el footer,para mantener la identidad de la pagina.
+Repetimos el orden y la secuencia de imagenes y formas, para dar la impresiond de conjunto.
+
+
+
+
+### Alineacion
+
+
+Alinear los elementos es una operación imprescindible para conseguir una composición ordenada y lógica, con ello se crean unidades visuales definidas y relaciones entre elementos.
+Para que se vea ordenado y simetrico, organizamos los contenidos para que se alinearan segun su naturaleza.
+Los contenedores del menu van a la misma distancia entre ellos, agrupados a la misma altura .Al igual que el texto, los botones de select e input , de esta manera se nota que estan relacionados entre si.
+Estan alineadas tambien las imagenes , para dar orden a toda la estructura , sino con tantas imagenes seria un caos visual.Esto le da cohesion y orden.
+
+
+
+
+### Proximidad
+
+
+Todos los elementos similares deben estar próximos. Esto es importante para estructurar la información.
+En el menu de Inicio existen varias secciones algunas muy similares entre si , pero para que no exista confucion sus elementos estan cercanos entre si y separadas por sus respectivos menus.
+Con esto queremos lograr una estructura definida pero al mismo tiempo que se proyecte mas variedad de contenido, asi que se cuido que cada imagen o elemento estuviera cerca de los demas elementos relacionados , manteniendo la organizacion.
+
+
+
+### Jerarquia
+
+
+Existe un orden jerárquico en la visión siendo el primer punto el más importante. Nosotras aplicaremos este principio a traves de la tipografia. 
+Las palabras más importantes muestran un mayor impacto, por lo que los usuarios pueden obtener la información clave con mayor claridad, entonces al dar reelevancia a los titulos de las secciones en relacion con el resto del texto aumentando su tamaño, llamará más la atención por lo que tendrán mayor grado de importancia. 
+El orden jerarquico se distribuira de la siguiente manera (mayor a menor desde la parte superior a la inferior de la pagina) disminuyendo el tamaño de las fuentes.
+Titulos 
+Menu de pagina y menu de funciones , mantiene el mismo tamaño ( por coincidir en que son parte de un menu ,aunque sean secciones diferentes)
+Nombres de genero , a excepcion de "Superheroes" porque este se encuentra destacado mas abajo en la pagina.
+Texto en datos de peliculas y Texto de noticias , esto se hizo asi con el fin de ahorrar espacio y que se viera ordenado.
+
+
+## Fuentes
+
+
+
+La tipografia se eligio desde google fonts de acuerdo a 2 objetivos: 
+
+
+* "Que sea moderna" 
+Porque el diseño de la app , si bien esta enfocado en un grupo etareo bastante amplio, la aplicacion tiene un estilo moderno , por lo que requiere una fuente con similares caracteristicas.
+
+
+
+* "Que sea legible"
+Porque al contener bastante informacion ( especificamente en la seccion de noticias y sinopsis)  requiere una letra que se vea ordenada , sin quiebres para mayor fluidez en la lectura.
+
+
+Por ello la eleccion fue:
+
+* Prompt :Para titulos y textos cortos
+
+* Roboto : Para textos mas largos por su mayor legibilidad.
+![fuentes](https://i.ibb.co/D7ZwyrS/Screenshot-from-2020-01-08-10-41-36.png)
+
+
+####Para conocer las fuentes elegidas, puedes revisar el siguiente enlace:
+ [aquí](https://fonts.google.com/selection?selection.family=Prompt|Roboto&query=robot)
+
+
+
+
+
+
+
+
 
