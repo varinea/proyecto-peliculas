@@ -3,7 +3,7 @@
 
 
 
-![inicio](https://i.ibb.co/44WgdKX/Screenshot-from-2020-01-08-13-43-00-1.png)
+![inicio](https://i.ibb.co/wrwXcrV/Screenshot-from-2020-01-08-16-58-44.png)
 
  
 
@@ -19,6 +19,7 @@
 * [Diseño](#Diseño)
 * [Sketch](#Sketch)
 * [Investigacion y Desarrollo](#Investigacion-y-Desarrollo)
+* [Primeros cambios de Sketch a prototipo de alta fidelidad](#Primeros-cambios-de-Sketch-a-prototipo-de-alta-fidelidad)
 * [Prototipo de alta fidelidad](#Prototipo-de-alta-fidelidad)
 * [Testeo y usabilidad](#Testeo-y-usabilidad)
 * [Analisis y conclusion](#Analisis-y-conclusion)
@@ -82,7 +83,7 @@ Monica Bartha (colaboradora):
 
 * Planificacion en Trello
 * Seccion _Fandom_ en J.S
-* 
+* Modificaciones en html y css
 * Responsive
 
 
@@ -91,7 +92,7 @@ Varinea Lopez (colaboradora):
 * Bottoms 
 * Modificaciones en Css
 * Callbacks de "Estreno" "Superheroes" y "Series" J.S
-* Calbacks por "Genero" en J.s
+* Calbacks por "Genero" en J.S
 
 
 Andrea Vasquez (colaboradora):
@@ -171,7 +172,7 @@ ___
 
 * Visualizar informacion detallada de cada pelicula.
 
-* Crear enlaces para Trailers en youtube , fandoms , y noticias de cine.
+* Crear enlaces para Trailers en Youtube , Fandom , y Noticias de cine.
  
 
 
@@ -179,9 +180,37 @@ ___
 
 
 ![Sketch]()
+Version para Desktop
+
+![Sketch]()
+Version para Movil
+
+
+## Investigacion y Desarrollo
+
+
+Para diseñar esta webapp nos basamos en entrevistas que realizamos a Fans _Geeks_ , los cuales conocimos en una visita anterior a _Deckmachine_ una tienda que se especializa en productos coleccionables de peliculas y juegos . En este lugar ademas, se organizan campeonatos y eventos en torno al anime , cosplay y _Fandom_.
+Puedes visitar su sitio web  [aquí](https://www.deckmachine.cl/categoria-producto/sw-destiny/).
+Con ellos consultamos sobre sus gustos personales en cuanto a cine , el uso de plataformas para ver sus series y peliculas , su participacion en foros , su interes y fanatismo por peliculas de culto de ciencia ficcion.
+
+
+## Primeros cambios de Sketch a prototipo de alta fidelidad 
+
+Al presentarles nuestro sketch para obtener Feedback, nos indicaron que necesitaban ver mayor información e sobre cada pelicula , acceso a revisar trailers, filtros mas completos , y acceso rapido a redes sociales ( esto incluia a _Fandom_ propuesta que tuvo muy buena aceptacion).
+
+Escuchando sus sugerencias, decidimos mejorar el sistema de filtros , haciendo una lista mas acotada y relacionada con la tematica que a ellos les interesa, dejando afuera generos tales como : comedia , terror, romantica e infantil e incluyendo filtros como accion , aventura y Superheroes , que sin duda fue su favorito.
+Tambien mejoramos la pagina especifica de cada pelicula ( imagen e informacion) y desarrollamos una seccion mas grande dedicada a _Fandom_.
+A la version movil se le hicieron las misma modificaciones y se trabajo en hacerla mas simple e igual de intuitiva.
 
 
 
+## Paleta de colores
+
+Para elegir la paleta de colores del prototipo, nos inspiramos en los colores 
+Sin embargo, nosotras usamos estos los mismos tonos, pero al reves.
+Ocupando el azul como color primario y el amarillo como color secundario, solo para algunos minimos detalles. 
+Esta eleccion se dio en forma natural, debido a que el amarillo como color dominante, satura y quita la atencion de las Imagenes, sin embargo en pequeñas dosis puede dar la sensacion de energia y positividad.
+Mientras que el azul, el unico color primario del espectro frio, si bien es llamativo, ayuda a destacar sin agotar la vision, da una sensacion de calma y las letras en blanco son mas legibles en el.
 
 
 

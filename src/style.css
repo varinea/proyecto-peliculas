@@ -9,37 +9,36 @@
 body{
     background: #252327
 }
-
+.icon{
+    width: 20px;
+    height: 20px;
+    border: 0px;
+    position: absolute;
+    top: 1px;
+    margin-left: 766px;
+    margin-top: 47px;
+}
 .rowNew {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-   
-
     justify-content: center;
-text-align: center;
-color:
-white;
-margin: 0%;
+    text-align: center;
+    color:white;
+    margin: 0%;
     margin-right: 0%;
     margin-left: 0%;
-background-color:
-#252327;
+    background-color:#252327;
 }
-
-
-
-
-
 .rowNew h2 {
     color: #ffffff;
 }
 .contenedor{
 	justify-content: flex-end;
 }
-/* HEADER --- MENUS */
+/* Header --- Menú */
 .logo{
 	margin-left: 35px;
 }
@@ -53,9 +52,10 @@ background-color:
     border: none;
 	font-size: 12pt;
 	color: #63717f;
-	float: right;
+    float: right;
+    position: relative;
+    outline: none;
 }
-
 .imgHeader {
 	width: 100%;
 	height: 110px;
@@ -89,14 +89,12 @@ background-color:
     color:rgb(24, 12, 12);
     background: #0c4d5d;
 }
-
 .custom-card{
 	height: 400px;
     margin-bottom: 50px;
     color: black;
     background-color: #252327;
 }
-
 .simple-card{
     height: 240px;
     margin-bottom: 50px;
@@ -129,17 +127,14 @@ background-color:
     padding: 5px; 
     color: white;
 }
-/* SLIDER */
+/* Slider */
 .sliderMovie{
     width: 60%;
     display: block;
     margin: auto;
 }
-/* CATEGORYS */
-
+/* Categorys */
 .rowNew-category{
-     /* justify-content: center;
-    text-align: center; */
     padding: 5px;
     padding-left: 40px; 
     background-color: black; 
@@ -151,7 +146,6 @@ background-color:
     padding-bottom: 20px;
     background-color: #252327;
 }
-/* FOOTER */
 footer {
     background-image: url('https://thumbnailer.mixcloud.com/unsafe/1200x628/profile/3/4/b/9/616f-ea8f-4ad9-b20d-91c693c85f2f');
 	background-size: 100%; 
@@ -172,7 +166,7 @@ footer p {
     padding-top: 20px;
     align-self: flex-end;
 }
-/* COLUMNAS FANDOM */
+/* Columnas Fandom */
 .columna {
     display: inline-block;
     width: 12.33%;
@@ -226,8 +220,7 @@ color: #F2F2F2;
     width: 87%;
     color: #F2F2F2;
     text-align: justify;
-}
-    
+} 
 ul{
     margin-bottom: 0px !important;
 }
