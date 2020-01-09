@@ -438,6 +438,7 @@ ___
 
 >"Podrian agregar una seccion con articulos especiales sobre directores y actores tambien"
 
+___
 
 #### Usuario 5
 
@@ -452,5 +453,40 @@ ___
 >"Es bueno que tenga una seccion de noticias , generalmente este tipo de paginas no la tiene".
 
 >"Me gustaria un filtro por actores , los mas destacados del genero".
+
+___
+
+## Conclusiones
+
+### Aprendizaje:
+
+Es la facilidad con la que el usuario es capaz de desarrollar las tareas asignadas por primera vez.
+Los usuarios comprendendieronsin dificultad la funcion de cada uno de los botones y elementos, ademas de entender hacia donde iban estos, sin problemas.
+
+
+
+### Eficiencia
+
+Es la destreza con la que usuarios con experiencia llevan a cabo las instrucciones que se les han dado. Su similitud en el Diseño a otras paginas de Pokemon, entrega familiaridad y esto permite que el usuario, cumpla su objetivo, sin mayor problema.
+Eso si, se considera quitar texto explicativo, porque no cumple su funcion , a solicitud de los usuarios.
+
+
+
+
+### Memoria
+
+Se evaluo si al pasar cierto tiempo, después de la primera interacción, el usuario fue capaz de recordar cómo funciona la aplicación sin necesidad de aprender a manejarla nuevamente.Y no se registraron problemas con eso , efectivamente los usuarios no requirieron repetir para entenderla.
+
+
+
+### Errores
+
+Se debe reconocer la cantidad y gravedad de errores que cometa el usuario al interactuar con la aplicación, de igual manera se analiza la facilidad con la que se pueden enmendar los errores cometidos durante la prueba.
+Los errores estan mencionados con detalle mas abajo, en la parte de  _cambios del prototipo e Interfaz final_ .
+
+
+
+
+
 
 
