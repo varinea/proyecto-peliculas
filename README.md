@@ -370,9 +370,9 @@ Es Fans de practicamente todas las sagas espaciales o relacionadas: Star Trek , 
 Durante su adolescencia fue _Gamer_ , asiduo a juegos de estrategia en linea como LoL , llego hasta organizar "Copas"  o competencias , fue campeon regional de ajedrez , y de cartas Pokemon.
 Tambien fue columnista en la desaparecida web Chilena de noticias geeks  _Ozom.cl_ , en ella con el pseudonimo de _Miunich_ , publicaba sobre temas de interes tales como Cine , juegos y datos geeks.
 
-<img src="https://i.ibb.co/cydJLvC/miunich.jpg" alt="img9"  width="500" height="250"> <img src="https://i.ibb.co/qnNHpvK/miunich2.jpg" alt="img10" width="500" height="250"> 
+<img src="https://i.ibb.co/cydJLvC/miunich.jpg" alt="img9"  width="350" height="250"> <img src="https://i.ibb.co/qnNHpvK/miunich2.jpg" alt="img10" width="530" height="250"> 
 
-<img src="https://i.ibb.co/sFJHX8f/Screenshot-from-2020-01-08-03-34-12.png" alt="img11"  width="400" height="250"> <img src="https://i.ibb.co/rwsJPm6/Screenshot-from-2020-01-08-03-34-51.png" alt="img12" width="400" height="250"> 
+<img src="https://i.ibb.co/sFJHX8f/Screenshot-from-2020-01-08-03-34-12.png" alt="img11"  width="300" height="250"> <img src="https://i.ibb.co/rwsJPm6/Screenshot-from-2020-01-08-03-34-51.png" alt="img12" width="300" height="250"> 
 
 
 
