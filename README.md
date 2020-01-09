@@ -212,7 +212,7 @@ Sin embargo considerando que existen muchisimas plataformas con esa misma combin
  
 
 
-<img src="https://i.ibb.co/b18x8Hz/image-1.png" alt="img2"  width="500" height="250"><img src="https://i.ibb.co/DwVXTNQ/Screenshot-20200108-215413-Chrome-1-2.jpg" alt="img2" width="500" height="150">
+<img src="https://i.ibb.co/b18x8Hz/image-1.png" alt="img2"  width="500" height="250"><img src="https://i.ibb.co/DwVXTNQ/Screenshot-20200108-215413-Chrome-1-2.jpg" alt="img3" width="500" height="150">
 
 
 
@@ -317,7 +317,32 @@ Para conocer las fuentes elegidas, puedes revisar el siguiente enlace:
  [aquí](https://fonts.google.com/selection?selection.family=Prompt|Roboto&query=robot)
 
 
+___
 
+## Prototipo de alta fidelidad 
+
+
+
+Version para Desktop: para diseñar el prototipo para testeo utilizamos _Figma_.
+___ 
+
+
+<img src="https://i.ibb.co/t3txJ48/Screenshot-from-2020-01-09-09-39-57.png" alt="img5"  width="500" height="250"><img src="https://i.ibb.co/Zcd27zQ/Screenshot-from-2020-01-09-09-37-03.png" alt="img6"  width="500" height="250">
+
+<img src="https://i.ibb.co/gDr1MF3/Screenshot-from-2020-01-09-09-36-16.png" alt="img7"  width="500" height="250"><img src="https://i.ibb.co/DfBTL89/Screenshot-from-2020-01-09-09-42-30.png" alt="img8"  width="500" height="250">
+
+
+
+
+
+
+
+
+
+
+Puedes interactuar con el prototipo haciendo click [aquí](https://www.figma.com/proto/W8Kkco1Qpm4kdlaYuEbd74/Peliculas?node-id=1%3A3&scaling=min-zoom)
+
+___ 
 
 
 
