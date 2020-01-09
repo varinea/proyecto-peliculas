@@ -99,7 +99,7 @@ Andrea Vasquez (colaboradora):
 
 * Diseño Interfaz y Usabilidad
 * Protototipos Desktop y Movil en _Figma_
-* Creacion y redaccion de Read.me
+* Creacion y redaccion de ReadMe
 * Investigacion y test de usabilidad
 
 
@@ -168,7 +168,7 @@ ___
 
 * Separar peliculas de series.
 
-* Visualizar imagenes de peliculas en tamaño grande.
+* Visualizar imagenes de peliculas en solitario.
 
 * Visualizar informacion detallada de cada pelicula.
 
@@ -211,6 +211,9 @@ Sin embargo, nosotras usamos estos los mismos tonos, pero al reves.
 Ocupando el azul como color primario y el amarillo como color secundario, solo para algunos minimos detalles. 
 Esta eleccion se dio en forma natural, debido a que el amarillo como color dominante, satura y quita la atencion de las Imagenes, sin embargo en pequeñas dosis puede dar la sensacion de energia y positividad.
 Mientras que el azul, el unico color primario del espectro frio, si bien es llamativo, ayuda a destacar sin agotar la vision, da una sensacion de calma y las letras en blanco son mas legibles en el.
+
+
+<img src="https://i.ibb.co/d0CMCtb/IMG-20200104-WA0019-1.jpg" alt="img1"  width="200" height="400"> <img src="https://i.ibb.co/HnGCv89/Screenshot-20200108-215413-Chrome-1.jpg" alt="img1"  width="200" height="400">
 
 
 
