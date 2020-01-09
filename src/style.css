@@ -15,8 +15,8 @@ body{
     border: 0px;
     position: absolute;
     top: 1px;
-    margin-left: 766px;
-    margin-top: 47px; 
+    margin-left: 65%;
+    margin-top: 3.3%; 
 }
 .rowNew {
     display: -webkit-box;
@@ -144,7 +144,7 @@ body{
 .custom-container{
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #252327;
+    background-color: black;
 }
 footer {
     background-image: url('https://thumbnailer.mixcloud.com/unsafe/1200x628/profile/3/4/b/9/616f-ea8f-4ad9-b20d-91c693c85f2f');
@@ -181,6 +181,9 @@ footer p {
     padding: 3% 7%;
     background-color: #252327;
 }
+ul {  
+    margin-bottom: 0px !important;
+    }
 /* Seccion Noticias */
 .custom-noticias{
     color: white;
@@ -192,8 +195,8 @@ footer p {
     line-height: 20px;
 }
 .img-noticias{
-    width: 400px;
-    height: 255px;
+    width: 30%;
+    height: 20%;
 }
 .fecha{
 font-family: 'Prompt', sans-serif;
@@ -220,8 +223,173 @@ color: #F2F2F2;
     width: 87%;
     color: #F2F2F2;
     text-align: justify;
-} 
+}
+
 ul{
     margin-bottom: 0px !important;
 }
-
+/* RESPONSIVE */ 
+@media all and (max-width: 1920px) {
+    .icon {
+        margin-left: 72%;
+        margin-top: 2.6%; 
+    }
+}
+@media all and (max-width: 1800px) {
+    .icon {
+        margin-left: 65%;
+        margin-top: 2.6%; 
+    }
+}
+@media all and (max-width: 1770px) {
+    .icon {
+        margin-left: 70%;
+        margin-top: 2.8%; 
+    }
+}
+@media all and (max-width: 1660px) {
+    .icon {
+        margin-left: 65%;
+        margin-top: 2.8%; 
+    }
+}
+@media all and (max-width: 1500px) {
+    .icon {
+        margin-left: 65%;
+        margin-top: 3.3%; 
+    }
+}
+@media all and (max-width: 1400px) {
+    .icon {
+        margin-left: 60%;
+        margin-top: 3.5%; 
+    }
+}
+@media all and (max-width: 1275px) {
+    .columna {
+        display: inline-flex;
+        width: 15.33%;
+        margin: 1% 2% 1% 2%;
+    }
+    .icon {
+        margin-left: 55%;
+        margin-top: 4%; 
+    }
+    .search-bar {
+        font-size: 12px;
+    }
+    .img-noticias {
+        width: 40%;
+        height: 25%;
+    }
+}
+@media all and (max-width: 1100px) {
+    .columna {
+        display: inline-block;
+        width: 20%;
+        margin: 1% 2% 1% 2%;
+    }
+    .icon {
+        margin-left: 50%;
+        margin-top: 4.5%; 
+    }
+    .botones {
+        font-size:14px;
+    }
+    .search-bar {
+        font-size: 12px;
+    }
+    
+}
+@media all and (max-width: 1000px) {
+    .icon {
+        margin-left: 45%;
+        margin-top: 5%; 
+    }
+    .search-bar {
+        font-size: 12px;
+    }
+    .media-body {
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .img-noticias {
+        display: flex;
+        flex-flow: column wrap;
+        width: 40%;
+        height: 25%;
+    }
+}
+@media all and (max-width: 900px) {
+    .columna {
+        display: inline-block;
+        width: 27%;
+        margin: 1% 2% 1% 2%;
+    }
+    .icon {
+        margin-left: 40%;
+        margin-top: 5.6%; 
+    }
+    .botones {
+        font-size:14px;
+    }
+    .search-bar {
+        font-size: 12px;
+    }
+    .btns{
+        display: inline-flex;
+        width: 100%;
+    }
+    
+}
+@media all and (max-width: 840px) {
+    .icon {
+        margin-left: 35%;
+        margin-top: 5.8%; 
+    }
+    .logo{
+        width: 50%;
+    }
+}
+@media all and (max-width: 780px) {
+    .icon {
+        display: none;
+    }
+}
+@media all and (max-width: 712px) {
+    .logo{
+        width: 50%;
+    }
+    .search-bar {
+        width: 60%;
+        font-size: 12px;
+    }
+    .columna {
+        display: inline-block;
+        width: 45%;
+        margin: 1% 2% 1% 2%;
+    }
+    .btns {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+@media all and (max-width: 480px) {
+    .columna {
+        display: inline-block;
+        width: 40%;
+        margin: 1% 2% 1% 2%;
+    }
+    .colImg {
+        width: 80%;
+    }
+}
+@media all and (max-width: 370px) {
+    .search-bar {
+        float: left;
+        height: 30px;
+        margin-top: 1%;
+        font-size: 12px;
+    }
+}
