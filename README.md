@@ -375,12 +375,6 @@ Tambien fue columnista en la desaparecida web Chilena de noticias geeks  _Ozom.c
 <img src="https://i.ibb.co/sFJHX8f/Screenshot-from-2020-01-08-03-34-12.png" alt="img11"  width="300" height="300"> <img src="https://i.ibb.co/rwsJPm6/Screenshot-from-2020-01-08-03-34-51.png" alt="img12" width="300" height="300">
 
 
-
-
-
-
-
-
 Para ver el video de entrevista y testeo del prototipo . Puedes revisar los siguiente links: 
 
 * Entrevista parte 1 [aquí]()
@@ -388,11 +382,75 @@ Para ver el video de entrevista y testeo del prototipo . Puedes revisar los sigu
 * Test usabilidad Desktop [aquí]()
 * Feedback [aquí]()
 
+#### Observaciones del usuario
+
+>"Estaba todo claro , sencillo , es entendible , sabes para donde vas "
+
+>"Solo no me quedo clara la parte de los trailers, se ven desde ahi mismo o me llevan a la pagina oficial de youtube?"
+
+>"Me gustaria que tuviera acceso a comentar las peliculas , para eso se podria logear el usuario y postear desde sus redes sociales como Facebook por ejemplo"
+
+___
+
+#### Usuario 2
+
+![usuario2](https://i.ibb.co/6t7wWJJ/Pics-Art-01-09-10-36-43.png)
 
  
 
+#### Observaciones del usuario
+
+>"Me agrada el diseño , se que estoy testeando un prototipo pero da la apariencia de una pagina de peliculas real "
+
+>"Los Iconos de redes sociales en negro , como que no se destacan del fondo, quizas deberian ser blancos , asi me llamarian mas la atencion " 
+
+>"Me gustaria que tuviera una seccion de foros , para poder comentar con personas con tus minos gustos cinefilos"
+
+___
+
+#### Usuario 3
+
+![usuario3](https://i.ibb.co/wr9fRBH/Pics-Art-01-09-10-45-13.png)
+
+ 
+
+#### Observaciones del usuario
+
+>"Creo que es genial que te linkee a Fandom"
+
+>"En la parte de noticias, deberia linkear desde la foto , no solo desde el ..leer mas ".
+
+>"Deberia existir un filtro para buscar segun pais de origen , eso seria super util segun yo , porque existen series buenas en otros idiomas que uno nisiquiera sabe que existen"
+
+___
+
+#### Usuario 4
+
+![usuario4](https://i.ibb.co/FKsFN5b/Pics-Art-01-09-10-38-19.png)
+
+ 
+
+#### Observaciones del usuario
+
+>"Tiene muchas opciones para filtrar, me agrada eso"
+
+>"Tiene buena imagen y sus secciones se ven de forma clara , siento que en ningun momento me perdi , es como si ya lo hubiera usado antes".
+
+>"Podrian agregar una seccion con articulos especiales sobre directores y actores tambien"
 
 
+#### Usuario 5
 
+![usuario5](https://i.ibb.co/VL48QGV/Pics-Art-01-09-10-40-13.png)
+
+ 
+
+#### Observaciones del usuario
+
+>"Me perdi un poco en como volver de la seccion de busqueda, despues entendi que el logo era para volver"
+
+>"Es bueno que tenga una seccion de noticias , generalmente este tipo de paginas no la tiene".
+
+>"Me gustaria un filtro por actores , los mas destacados del genero".
 
 
