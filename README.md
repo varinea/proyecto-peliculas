@@ -212,7 +212,7 @@ Sin embargo considerando que existen muchisimas plataformas con esa misma combin
  
 
 
-<img src="https://i.ibb.co/b18x8Hz/image-1.png" alt="img2"  width="500" height="250"><img src="https://i.ibb.co/DwVXTNQ/Screenshot-20200108-215413-Chrome-1-2.jpg" alt="img2" width="500" height="150">
+<img src="https://i.ibb.co/b18x8Hz/image-1.png" alt="img2"  width="500" height="250"><img src="https://i.ibb.co/DwVXTNQ/Screenshot-20200108-215413-Chrome-1-2.jpg" alt="img3" width="500" height="150">
 
 
 
@@ -317,6 +317,172 @@ Para conocer las fuentes elegidas, puedes revisar el siguiente enlace:
  [aquí](https://fonts.google.com/selection?selection.family=Prompt|Roboto&query=robot)
 
 
+___
+
+## Prototipo de alta fidelidad 
+
+
+
+Version para Desktop: Para diseñar el prototipo para testeo utilizamos _Figma_.
+___ 
+
+
+<img src="https://i.ibb.co/t3txJ48/Screenshot-from-2020-01-09-09-39-57.png" alt="img5"  width="400" height="250"> <img src="https://i.ibb.co/Zcd27zQ/Screenshot-from-2020-01-09-09-37-03.png" alt="img6"  width="400" height="250">
+
+<img src="https://i.ibb.co/gDr1MF3/Screenshot-from-2020-01-09-09-36-16.png" alt="img7"  width="400" height="250"> <img src="https://i.ibb.co/DfBTL89/Screenshot-from-2020-01-09-09-42-30.png" alt="img8"  width="400" height="250">
+
+
+Puedes interactuar con el prototipo haciendo click [aquí](https://www.figma.com/proto/W8Kkco1Qpm4kdlaYuEbd74/Peliculas?node-id=1%3A3&scaling=min-zoom)
+
+___ 
+
+
+# Testeo y Usabilidad
+
+
+Los test de usabilidad son una forma de probar cómo los visitantes navegan en tu sitio web con el objetivo de facilitar su experiencia web y dejarla cada vez más simple e intuitiva. 
+Para ver la usabilidad del ultimo prototipo, se realizo un testeo a la versión de Desktop.
+
+
+### Objetivos de testeo
+
+
+* Comprobar si el contenido se hace familiar, comprensible y esta alineado con la aplicacion _Go Movies_.
+* Probar si la interfaz es fácil de entender o necesita mayor instrucción.
+* Comprobar si el acceso y los enlaces siguen un orden lineal.
+* Comprobar si el usuario sabe donde esta posicionado.
+* Comprobar si los principios de Diseño aplicados cumplen su objetivo (estetica , visualizacion, legibilidad)
+
+Para ver si se cumplen estos objetivos, haremos uso de la Evaluacion heuristica en su version acotada para pesquizar problemas, y segun el Impacto y la frecuencia con que estos aparezcan haremos las modificaciones pertinentes.
+
+
+## Test de usabilidad
+
+
+Contactamos nuevamente a los chicos de _Deckmachine_  y segun sus intereses , seleccionamos a los mas cercanos a nuestro usuario objetivo, a la vez ellos contactaron a sus conocidas tambien con intereses similares , por lo que logramos testear a un grupo heterogeneo de hombres y mujeres con amor al cine Fantastico y de Ciencia ficcion.
+
+#### Usuario 1
+
+![usuario1](https://i.ibb.co/zRXFR9J/Pics-Art-01-09-10-48-38.png)
+
+Sergio Antonio , o "Toño" para los amigos , es el _Geek_ modelo : Hoy en dia esta terminando la carrera de Teatro , pues piensa desarrollar una carrera como comediante de Stand up , hace años atras estuvo estudiando Ciencias Fisicas y Astronomicas en la UdeC , pues su interes siempre ha sido relacionado con la Sci-Fi relacionada con el espacio , le gusta la Ufologia y el cine relacionado con esos temas.
+Es Fans de practicamente todas las sagas espaciales o relacionadas: Star Trek , Star Wars, Mandalorian , Expedientes secretos "X" etc.
+Durante su adolescencia fue _Gamer_ , asiduo a juegos de estrategia en linea como LoL , llego hasta organizar "Copas"  o competencias , fue campeon regional de ajedrez , y de cartas Pokemon.
+Tambien fue columnista en la desaparecida web Chilena de noticias geeks  _Ozom.cl_ , en ella con el pseudonimo de _Miunich_ , publicaba sobre temas de interes tales como Cine , juegos y datos geeks.
+
+<img src="https://i.ibb.co/cydJLvC/miunich.jpg" alt="img9"  width="350" height="250">  <img src="https://i.ibb.co/qnNHpvK/miunich2.jpg" alt="img10" width="350" height="250"> 
+
+<img src="https://i.ibb.co/sFJHX8f/Screenshot-from-2020-01-08-03-34-12.png" alt="img11"  width="300" height="300"> <img src="https://i.ibb.co/rwsJPm6/Screenshot-from-2020-01-08-03-34-51.png" alt="img12" width="300" height="300">
+
+
+Para ver el video de entrevista y testeo del prototipo . Puedes revisar los siguiente links: 
+
+* Entrevista parte 1 [aquí]()
+* Test usabilidad   [aquí]()
+* Test usabilidad Desktop [aquí]()
+* Feedback [aquí]()
+
+#### Observaciones del usuario
+
+>"Estaba todo claro , sencillo , es entendible , sabes para donde vas "
+
+>"Solo no me quedo clara la parte de los trailers, se ven desde ahi mismo o me llevan a la pagina oficial de youtube?"
+
+>"Me gustaria que tuviera acceso a comentar las peliculas , para eso se podria logear el usuario y postear desde sus redes sociales como Facebook por ejemplo"
+
+___
+
+#### Usuario 2
+
+![usuario2](https://i.ibb.co/6t7wWJJ/Pics-Art-01-09-10-36-43.png)
+
+ 
+
+#### Observaciones del usuario
+
+>"Me agrada el diseño , se que estoy testeando un prototipo pero da la apariencia de una pagina de peliculas real "
+
+>"Los Iconos de redes sociales en negro , como que no se destacan del fondo, quizas deberian ser blancos , asi me llamarian mas la atencion " 
+
+>"Me gustaria que tuviera una seccion de foros , para poder comentar con personas con tus minos gustos cinefilos"
+
+___
+
+#### Usuario 3
+
+![usuario3](https://i.ibb.co/wr9fRBH/Pics-Art-01-09-10-45-13.png)
+
+ 
+
+#### Observaciones del usuario
+
+>"Creo que es genial que te linkee a Fandom"
+
+>"En la parte de noticias, deberia linkear desde la foto , no solo desde el ..leer mas ".
+
+>"Deberia existir un filtro para buscar segun pais de origen , eso seria super util segun yo , porque existen series buenas en otros idiomas que uno nisiquiera sabe que existen"
+
+___
+
+#### Usuario 4
+
+![usuario4](https://i.ibb.co/FKsFN5b/Pics-Art-01-09-10-38-19.png)
+
+ 
+
+#### Observaciones del usuario
+
+>"Tiene muchas opciones para filtrar, me agrada eso"
+
+>"Tiene buena imagen y sus secciones se ven de forma clara , siento que en ningun momento me perdi , es como si ya lo hubiera usado antes".
+
+>"Podrian agregar una seccion con articulos especiales sobre directores y actores tambien"
+
+___
+
+#### Usuario 5
+
+![usuario5](https://i.ibb.co/VL48QGV/Pics-Art-01-09-10-40-13.png)
+
+ 
+
+#### Observaciones del usuario
+
+>"Me perdi un poco en como volver de la seccion de busqueda, despues entendi que el logo era para volver"
+
+>"Es bueno que tenga una seccion de noticias , generalmente este tipo de paginas no la tiene".
+
+>"Me gustaria un filtro por actores , los mas destacados del genero".
+
+___
+
+## Conclusiones
+
+### Aprendizaje:
+
+Es la facilidad con la que el usuario es capaz de desarrollar las tareas asignadas por primera vez.
+Los usuarios comprendendieronsin dificultad la funcion de cada uno de los botones y elementos, ademas de entender hacia donde iban estos, sin problemas.
+
+
+
+### Eficiencia
+
+Es la destreza con la que usuarios con experiencia llevan a cabo las instrucciones que se les han dado. Su similitud en el Diseño a otras paginas de Pokemon, entrega familiaridad y esto permite que el usuario, cumpla su objetivo, sin mayor problema.
+Eso si, se considera quitar texto explicativo, porque no cumple su funcion , a solicitud de los usuarios.
+
+
+
+
+### Memoria
+
+Se evaluo si al pasar cierto tiempo, después de la primera interacción, el usuario fue capaz de recordar cómo funciona la aplicación sin necesidad de aprender a manejarla nuevamente.Y no se registraron problemas con eso , efectivamente los usuarios no requirieron repetir para entenderla.
+
+
+
+### Errores
+
+Se debe reconocer la cantidad y gravedad de errores que cometa el usuario al interactuar con la aplicación, de igual manera se analiza la facilidad con la que se pueden enmendar los errores cometidos durante la prueba.
+Los errores estan mencionados con detalle mas abajo, en la parte de  _cambios del prototipo e Interfaz final_ .
 
 
 
