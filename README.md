@@ -212,7 +212,7 @@ Sin embargo considerando que existen muchisimas plataformas con esa misma combin
  
 
 
-<img src="https://i.ibb.co/b18x8Hz/image-1.png" alt="img2"  width="500" height="250"><img src="https://i.ibb.co/DwVXTNQ/Screenshot-20200108-215413-Chrome-1-2.jpg" alt="img2" width="500" height="150">
+<img src="https://i.ibb.co/b18x8Hz/image-1.png" alt="img2"  width="500" height="250"><img src="https://i.ibb.co/DwVXTNQ/Screenshot-20200108-215413-Chrome-1-2.jpg" alt="img3" width="500" height="150">
 
 
 
@@ -315,6 +315,51 @@ Por ello la eleccion fue:
 
 Para conocer las fuentes elegidas, puedes revisar el siguiente enlace:
  [aquí](https://fonts.google.com/selection?selection.family=Prompt|Roboto&query=robot)
+
+
+___
+
+## Prototipo de alta fidelidad 
+
+
+
+Version para Desktop: Para diseñar el prototipo para testeo utilizamos _Figma_.
+___ 
+
+
+<img src="https://i.ibb.co/t3txJ48/Screenshot-from-2020-01-09-09-39-57.png" alt="img5"  width="400" height="250"> <img src="https://i.ibb.co/Zcd27zQ/Screenshot-from-2020-01-09-09-37-03.png" alt="img6"  width="400" height="250">
+
+<img src="https://i.ibb.co/gDr1MF3/Screenshot-from-2020-01-09-09-36-16.png" alt="img7"  width="400" height="250"> <img src="https://i.ibb.co/DfBTL89/Screenshot-from-2020-01-09-09-42-30.png" alt="img8"  width="400" height="250">
+
+
+Puedes interactuar con el prototipo haciendo click [aquí](https://www.figma.com/proto/W8Kkco1Qpm4kdlaYuEbd74/Peliculas?node-id=1%3A3&scaling=min-zoom)
+
+___ 
+
+
+# Testeo y Usabilidad
+
+
+Los test de usabilidad son una forma de probar cómo los visitantes navegan en tu sitio web con el objetivo de facilitar su experiencia web y dejarla cada vez más simple e intuitiva. 
+Para ver la usabilidad del ultimo prototipo, se realizo un testeo a la versión de Desktop.
+
+
+### Objetivos de testeo
+
+
+* Comprobar si el contenido se hace familiar, comprensible y esta alineado con la aplicacion _Go Movies_.
+* Probar si la interfaz es fácil de entender o necesita mayor instrucción.
+* Comprobar si el acceso y los enlaces siguen un orden lineal.
+* Comprobar si el usuario sabe donde esta posicionado.
+* Comprobar si los principios de Diseño aplicados cumplen su objetivo (estetica , visualizacion, legibilidad)
+
+Para ver si se cumplen estos objetivos, haremos uso de la Evaluacion heuristica en su version acotada para pesquizar problemas, y segun el Impacto y la frecuencia con que estos aparezcan haremos las modificaciones pertinentes.
+
+
+## Test de usabilidad
+
+
+Contactamos nuevamente a los chicos de _Deckmachine_  y segun sus intereses , seleccionamos a los mas cercanos a nuestro usuario objetivo, a la vez ellos contactaron a sus conocidas tambien con intereses similares , por lo que logramos testear a un grupo heterogeneo de hombres y mujeres con amor al cine Fantastico y de Ciencia ficcion.
 
 
 
