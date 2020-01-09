@@ -212,7 +212,10 @@ Sin embargo considerando que existen muchisimas plataformas con esa misma combin
  
 
 
-<img src="https://i.ibb.co/b18x8Hz/image-1.png" alt="img2"  width="500" height="300 <img src="https://i.ibb.co/DwVXTNQ/Screenshot-20200108-215413-Chrome-1-2.jpg" alt="img2" width="500" height="200"
+<img src="https://i.ibb.co/b18x8Hz/image-1.png" alt="img2"  width="500" height="300"><img src="https://i.ibb.co/DwVXTNQ/Screenshot-20200108-215413-Chrome-1-2.jpg" alt="img2" width="500" height="200">
+
+
+
 
 
 Para traspasar los colores elegidosa codigo Hex y utilizarlos en nuestro prototipo de alta fidelidad ultilizamos la herramienta _Color Tool_.
